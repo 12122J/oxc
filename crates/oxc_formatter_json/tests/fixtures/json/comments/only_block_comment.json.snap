@@ -1,0 +1,18 @@
+---
+source: crates/oxc_formatter_json/tests/fixtures/mod.rs
+---
+==================== Input ====================
+/* just a block comment */
+
+==================== Output ====================
+------------------
+{ printWidth: 80 }
+------------------
+/* just a block comment */
+
+-------------------
+{ printWidth: 100 }
+-------------------
+/* just a block comment */
+
+===================== End =====================

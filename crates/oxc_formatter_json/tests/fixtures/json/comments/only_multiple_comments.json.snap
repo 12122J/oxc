@@ -1,0 +1,27 @@
+---
+source: crates/oxc_formatter_json/tests/fixtures/mod.rs
+---
+==================== Input ====================
+// first line
+/* block
+   spans lines */
+// last line
+
+==================== Output ====================
+------------------
+{ printWidth: 80 }
+------------------
+// first line
+/* block
+   spans lines */
+// last line
+
+-------------------
+{ printWidth: 100 }
+-------------------
+// first line
+/* block
+   spans lines */
+// last line
+
+===================== End =====================
