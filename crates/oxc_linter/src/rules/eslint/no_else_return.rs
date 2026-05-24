@@ -255,7 +255,7 @@ fn no_else_return_diagnostic_fix(
         };
 
         let needs_trailing_semicolon =
-            needs_trailing_statement_separator(ctx, else_stmt, replacement_span, target_span.end);
+            needs_trailing_statement_separator(ctx, else_stmt, target_span.end);
         if needs_newline || needs_trailing_semicolon {
             let replacement_text = ctx.source_range(replacement_span);
             let mut replacement = String::with_capacity(replacement_text.len() + 2);
@@ -276,12 +276,11 @@ fn no_else_return_diagnostic_fix(
 fn needs_trailing_statement_separator(
     ctx: &LintContext,
     else_stmt: &Statement,
-    replacement_span: Span,
     target_end: u32,
 ) -> bool {
     if let Some(last_stmt) = last_statement(else_stmt)
         && matches!(last_stmt, Statement::ExpressionStatement(_) | Statement::ReturnStatement(_))
-        && !ctx.source_range(Span::new(last_stmt.span().end, replacement_span.end)).contains(';')
+        && !ctx.source_range(last_stmt.span()).trim_end().ends_with(';')
     {
         for ch in ctx.source_text()[target_end as usize..].chars() {
             if is_line_terminator(ch) || ch == '}' || ch == ';' {
@@ -768,16 +767,17 @@ fn test() {
             "function foo14() { if (foo) return bar
             else { baz(); }
             [1, 2, 3].map(foo) }",
-            "function foo14() { if (foo) return bar\n baz(); 
-            [1, 2, 3].map(foo) }",
+            concat!(
+                "function foo14() { if (foo) return bar\n baz(); \n",
+                "            [1, 2, 3].map(foo) }",
+            ),
             None,
         ),
         (
             "function foo17() { if (foo) return bar
             else { baz() }
             qaz() }",
-            "function foo17() { if (foo) return bar\n baz() 
-            qaz() }",
+            concat!("function foo17() { if (foo) return bar\n baz() \n", "            qaz() }",),
             None,
         ),
         (
@@ -905,6 +905,11 @@ fn test() {
         ),
         (
             "function foo(){if(foo){return bar}else{baz=qux}while(baz){}}",
+            "function foo(){if(foo){return bar}baz=qux;while(baz){}}",
+            None,
+        ),
+        (
+            "function foo(){if(foo){return bar}else{baz=qux;}while(baz){}}",
             "function foo(){if(foo){return bar}baz=qux;while(baz){}}",
             None,
         ),
