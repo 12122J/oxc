@@ -279,8 +279,7 @@ fn needs_trailing_statement_separator(
     target_end: u32,
 ) -> bool {
     if let Some(last_stmt) = last_statement(else_stmt)
-        && matches!(last_stmt, Statement::ExpressionStatement(_) | Statement::ReturnStatement(_))
-        && !ctx.source_range(last_stmt.span()).trim_end().ends_with(';')
+        && !ctx.source_range(last_stmt.span()).trim_end().ends_with([';', '}'])
     {
         for ch in ctx.source_text()[target_end as usize..].chars() {
             if is_line_terminator(ch) || ch == '}' || ch == ';' {
@@ -911,6 +910,11 @@ fn test() {
         (
             "function foo(){if(foo){return bar}else{baz=qux;}while(baz){}}",
             "function foo(){if(foo){return bar}baz=qux;while(baz){}}",
+            None,
+        ),
+        (
+            "function foo(){if(foo){return bar}else{if(a)baz=qux}while(baz){}}",
+            "function foo(){if(foo){return bar}if(a)baz=qux;while(baz){}}",
             None,
         ),
     ];
