@@ -44,6 +44,10 @@ declare_oxc_lint!(
     /// const a = {};
     /// class A {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/empty-brace-spaces.md>
     EmptyBraceSpaces,
     unicorn,
     style,

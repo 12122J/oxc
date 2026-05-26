@@ -90,6 +90,11 @@ it('baz', async () => {
   await expect(promiseValue()).resolves.toBe(1);
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-conditional-in-test.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-conditional-in-test.md>
 ";
 
 pub fn run<'a>(node: &AstNode<'a>, ctx: &LintContext<'a>) {

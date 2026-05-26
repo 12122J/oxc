@@ -76,6 +76,10 @@ declare_oxc_lint!(
     ///   })
     /// })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-multiple-resolved.md>
     NoMultipleResolved,
     promise,
     suspicious,

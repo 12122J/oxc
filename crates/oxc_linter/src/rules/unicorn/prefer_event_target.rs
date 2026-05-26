@@ -48,6 +48,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// class Foo extends OtherClass {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-event-target.md>
     PreferEventTarget,
     unicorn,
     pedantic,

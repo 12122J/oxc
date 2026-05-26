@@ -69,6 +69,10 @@ declare_oxc_lint!(
     /// ```ts
     /// function f(a: number | string): void;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/unified-signatures/>
     UnifiedSignatures,
     typescript,
     style,

@@ -42,6 +42,10 @@ declare_oxc_lint!(
     ///     const [, secondElement] = await getArray();
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-expression-member.md>
     NoAwaitExpressionMember,
     unicorn,
     style,

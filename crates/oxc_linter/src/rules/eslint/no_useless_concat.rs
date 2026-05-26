@@ -48,6 +48,10 @@ declare_oxc_lint!(
     ///     + 'b'
     ///     + 'c';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-useless-concat>
     NoUselessConcat,
     eslint,
     suspicious,

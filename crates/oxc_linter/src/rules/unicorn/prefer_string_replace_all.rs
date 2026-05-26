@@ -49,6 +49,10 @@ declare_oxc_lint!(
     /// const pattern = "not-a-regexp"
     /// foo.replace(pattern, bar)
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-replace-all.md>
     PreferStringReplaceAll,
     unicorn,
     pedantic,

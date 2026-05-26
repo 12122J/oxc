@@ -41,6 +41,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// childNode.remove();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-remove.md>
     PreferDomNodeRemove,
     unicorn,
     pedantic,

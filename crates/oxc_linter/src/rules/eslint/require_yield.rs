@@ -31,6 +31,10 @@ declare_oxc_lint!(
     ///   return 10;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/require-yield>
     RequireYield,
     eslint,
     correctness,

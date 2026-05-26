@@ -77,6 +77,10 @@ declare_oxc_lint!(
     /// ```js
     /// const result = Object.fromEntries(pairs);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md>
     PreferObjectFromEntries,
     unicorn,
     style,

@@ -51,6 +51,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <html lang="en" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/html-has-lang.md>
     HtmlHasLang,
     jsx_a11y,
     correctness,

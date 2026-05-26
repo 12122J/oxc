@@ -63,6 +63,10 @@ declare_oxc_lint!(
     /// const array = [1, 2, 3];
     /// const hasOne = array.includes(1);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-set-has.md>
     PreferSetHas,
     unicorn,
     perf,

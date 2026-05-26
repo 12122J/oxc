@@ -48,6 +48,10 @@ declare_oxc_lint!(
     /// // Explicit type assertion if you're certain
     /// (anyValue as () => void)(); // explicitly unsafe but intentional
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unsafe-call/>
     NoUnsafeCall(tsgolint),
     typescript,
     pedantic,

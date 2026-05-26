@@ -127,6 +127,10 @@ declare_oxc_lint!(
     /// ### Reference
     ///
     /// - [WCAG 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard)
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/anchor-is-valid.md>
     AnchorIsValid,
     jsx_a11y,
     correctness,

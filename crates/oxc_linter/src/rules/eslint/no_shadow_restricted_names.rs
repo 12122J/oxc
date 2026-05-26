@@ -91,6 +91,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// import { undefined as undef } from "bar";
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-shadow-restricted-names>
     NoShadowRestrictedNames,
     eslint,
     correctness,

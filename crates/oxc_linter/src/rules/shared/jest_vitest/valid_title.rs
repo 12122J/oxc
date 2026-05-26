@@ -110,6 +110,11 @@ interface Options {
     mustMatch?: Partial<Record<'describe' | 'test' | 'it', string>> | string;
 }
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/valid-title.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/valid-title.md>
 ";
 
 #[derive(Debug, Default, Clone)]

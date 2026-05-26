@@ -65,6 +65,10 @@ declare_oxc_lint!(
     ///   console.log('immediately invoked');
     /// })();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-confusing-void-expression/>
     NoConfusingVoidExpression(tsgolint),
     typescript,
     pedantic,

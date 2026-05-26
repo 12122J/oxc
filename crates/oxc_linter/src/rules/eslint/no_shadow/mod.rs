@@ -97,6 +97,10 @@ declare_oxc_lint!(
     ///     var y = 2; // different name, no shadowing
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-shadow>
     NoShadow,
     eslint,
     suspicious,

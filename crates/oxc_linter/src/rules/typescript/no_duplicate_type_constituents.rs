@@ -60,6 +60,10 @@ declare_oxc_lint!(
     ///   | 'bar'
     ///   | 'baz';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-duplicate-type-constituents/>
     NoDuplicateTypeConstituents(tsgolint),
     typescript,
     correctness,

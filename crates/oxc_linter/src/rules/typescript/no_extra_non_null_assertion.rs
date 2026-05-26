@@ -71,6 +71,10 @@ declare_oxc_lint!(
     ///   return bar?.n;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-extra-non-null-assertion/>
     NoExtraNonNullAssertion,
     typescript,
     correctness,

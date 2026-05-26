@@ -48,6 +48,10 @@ declare_oxc_lint!(
     /// expect(foo).toBe(false)
     /// expectTypeOf(foo).toBe(false)
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-strict-boolean-matchers.md>
     PreferStrictBooleanMatchers,
     vitest,
     style,

@@ -61,6 +61,10 @@ declare_oxc_lint!(
     /// <script src='https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=Array.prototype.copyWithin'></script>
     /// <script src='https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=WeakSet%2CPromise'></script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-unwanted-polyfillio>
     NoUnwantedPolyfillio,
     nextjs,
     correctness,

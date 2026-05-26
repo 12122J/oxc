@@ -120,6 +120,10 @@ declare_oxc_lint!(
     /// // ["error", { "forbid": [{ "element": "button" }] }]
     /// <Button />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/forbid-elements.md>
     ForbidElements,
     react,
     restriction,

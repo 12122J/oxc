@@ -56,6 +56,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// element.dataset.unicorn = '🦄';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-dataset.md>
     PreferDomNodeDataset,
     unicorn,
     pedantic,

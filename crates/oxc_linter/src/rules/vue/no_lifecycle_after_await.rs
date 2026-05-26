@@ -66,6 +66,10 @@ declare_oxc_lint!(
     /// }
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/no-lifecycle-after-await.html>
     NoLifecycleAfterAwait,
     vue,
     correctness,

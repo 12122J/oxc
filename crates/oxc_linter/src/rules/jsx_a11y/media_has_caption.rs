@@ -69,6 +69,10 @@ declare_oxc_lint!(
     /// <audio><track kind="captions" src="caption_file.vtt" /></audio>
     /// <video><track kind="captions" src="caption_file.vtt" /></video>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/media-has-caption.md>
     MediaHasCaption,
     jsx_a11y,
     correctness,

@@ -55,6 +55,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// element.classList.toggle('className', condition);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-classlist-toggle.md>
     PreferClasslistToggle,
     unicorn,
     style,

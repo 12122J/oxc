@@ -59,6 +59,10 @@ declare_oxc_lint!(
     ///     // doSomething()...
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-compare-neg-zero>
     NoCompareNegZero,
     eslint,
     correctness,

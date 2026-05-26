@@ -49,6 +49,10 @@ declare_oxc_lint!(
     ///     <Hello key={thing.id} />
     /// ));
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md>
     NoArrayIndexKey,
     react,
     perf,

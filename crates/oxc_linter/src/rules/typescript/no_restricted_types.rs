@@ -141,6 +141,10 @@ declare_oxc_lint!(
     ///
     /// - Banning `Object` type with a generic message:
     ///   `{ "types": { "Object": true } }`
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-restricted-types/>
     NoRestrictedTypes,
     typescript,
     restriction,

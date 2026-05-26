@@ -216,6 +216,10 @@ declare_oxc_lint!(
     /// }
     /// ```
     ///
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/rules-of-hooks.md>
     RulesOfHooks,
     react,
     pedantic,

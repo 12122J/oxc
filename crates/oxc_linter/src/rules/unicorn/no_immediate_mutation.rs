@@ -88,6 +88,10 @@ declare_oxc_lint!(
     ///
     /// const map = new Map([["foo", 1], ["bar", 2]]);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-immediate-mutation.md>
     NoImmediateMutation,
     unicorn,
     pedantic,

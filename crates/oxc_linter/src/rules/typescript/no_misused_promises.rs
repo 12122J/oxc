@@ -122,6 +122,10 @@ declare_oxc_lint!(
     /// const getData = () => fetch('/');
     /// console.log({ foo: 42, ...(await getData()) });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-misused-promises/>
     NoMisusedPromises(tsgolint),
     typescript,
     pedantic,

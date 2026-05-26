@@ -47,6 +47,10 @@ declare_oxc_lint!(
     /// import a from './lib/a';
     /// import b from './b';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-relative-parent-imports.md>
     NoRelativeParentImports,
     import,
     restriction,

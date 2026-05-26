@@ -87,6 +87,10 @@ declare_oxc_lint!(
     /// ```json
     /// "unicorn/switch-case-braces": ["error", "avoid"]
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/switch-case-braces.md>
     SwitchCaseBraces,
     unicorn,
     style,

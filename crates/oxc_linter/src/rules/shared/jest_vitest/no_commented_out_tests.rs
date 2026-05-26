@@ -33,6 +33,11 @@ Examples of **incorrect** code for this rule:
 // it.skip('foo', () => {});
 // test.skip('foo', () => {});
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-commented-out-tests.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-commented-out-tests.md>
 ";
 
 //  /^\s*[xf]?(test|it|describe)(\.\w+|\[['"]\w+['"]\])?\s*\(/mu

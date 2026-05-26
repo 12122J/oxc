@@ -92,6 +92,10 @@ declare_oxc_lint!(
     /// import { type Foo } from 'Foo';
     /// import Foo, { type Bar } from 'Foo';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/consistent-type-specifier-style.md>
     ConsistentTypeSpecifierStyle,
     import,
     style,

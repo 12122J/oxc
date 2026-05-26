@@ -176,6 +176,10 @@ declare_oxc_lint!(
     /// const data = { "x": 1 };  // excused because of quotes
     /// data["y"] = 3;  // excused because of calculated property access
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/id-length>
     IdLength,
     eslint,
     style,

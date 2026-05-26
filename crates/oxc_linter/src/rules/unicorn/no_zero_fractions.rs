@@ -45,6 +45,10 @@ declare_oxc_lint!(
     /// const foo = 123456;
     /// const foo = 1.1;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-zero-fractions.md>
     NoZeroFractions,
     unicorn,
     style,

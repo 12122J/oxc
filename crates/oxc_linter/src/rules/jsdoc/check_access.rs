@@ -55,6 +55,10 @@ declare_oxc_lint!(
     ///
     /// /** @private */
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/checkAccess.md>
     CheckAccess,
     jsdoc,
     restriction,

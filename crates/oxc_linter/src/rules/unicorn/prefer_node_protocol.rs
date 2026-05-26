@@ -38,6 +38,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// import fs from "node:fs";
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-protocol.md>
     PreferNodeProtocol,
     unicorn,
     restriction,

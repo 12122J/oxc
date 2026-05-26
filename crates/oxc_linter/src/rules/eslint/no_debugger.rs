@@ -42,6 +42,10 @@ declare_oxc_lint!(
     ///   const result = complexCalculation(data);
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-debugger>
     NoDebugger,
     eslint,
     correctness,

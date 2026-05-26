@@ -75,6 +75,10 @@ declare_oxc_lint!(
     ///
     /// let bar: boolean = true;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/ban-types/>
     BanTypes,
     typescript,
     pedantic,

@@ -57,6 +57,11 @@ describe.each(items)('item', (item) => {
 	expect(item).toBe('foo')
 })
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-each.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-each.md>
 ";
 
 #[derive(Debug, Default, Clone)]

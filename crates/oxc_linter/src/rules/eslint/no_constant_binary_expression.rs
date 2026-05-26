@@ -54,6 +54,10 @@ declare_oxc_lint!(
     ///
     /// const isEmpty = x.length === 0;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-constant-binary-expression>
     NoConstantBinaryExpression,
     eslint,
     correctness,

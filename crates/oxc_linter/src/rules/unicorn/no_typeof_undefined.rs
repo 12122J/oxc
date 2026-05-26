@@ -47,6 +47,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// foo === undefined;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-typeof-undefined.md>
     NoTypeofUndefined,
     unicorn,
     pedantic,

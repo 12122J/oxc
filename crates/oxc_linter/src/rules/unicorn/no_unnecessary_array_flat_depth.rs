@@ -36,6 +36,10 @@ declare_oxc_lint!(
     /// ```js
     /// foo.flat()
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-array-flat-depth.md>
     NoUnnecessaryArrayFlatDepth,
     unicorn,
     pedantic,

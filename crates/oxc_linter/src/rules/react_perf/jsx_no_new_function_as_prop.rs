@@ -37,6 +37,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <Item callback={this.props.callback} />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/cvazac/eslint-plugin-react-perf/blob/master/docs/rules/jsx-no-new-function-as-prop.md>
     JsxNoNewFunctionAsProp,
     react_perf,
     perf,

@@ -85,6 +85,10 @@ declare_oxc_lint!(
     /// const error = new Error('Error message');
     /// throw error;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/only-throw-error/>
     OnlyThrowError(tsgolint),
     typescript,
     pedantic,

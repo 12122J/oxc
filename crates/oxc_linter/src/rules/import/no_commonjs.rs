@@ -101,6 +101,10 @@ declare_oxc_lint!(
     ///   fs = require("fs");
     /// } catch (error) {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-commonjs.md>
     NoCommonjs,
     import,
     restriction,

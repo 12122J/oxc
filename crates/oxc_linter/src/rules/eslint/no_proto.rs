@@ -39,6 +39,10 @@ declare_oxc_lint!(
     ///
     /// obj["__proto__"] = b;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-proto>
     NoProto,
     eslint,
     restriction,

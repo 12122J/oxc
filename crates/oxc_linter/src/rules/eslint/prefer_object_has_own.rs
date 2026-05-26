@@ -54,6 +54,10 @@ declare_oxc_lint!(
     /// Object.hasOwn(obj, "a");
     /// const hasProperty = Object.hasOwn(object, property);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/prefer-object-has-own>
     PreferObjectHasOwn,
     eslint,
     style,

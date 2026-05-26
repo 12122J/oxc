@@ -69,6 +69,10 @@ declare_oxc_lint!(
     ///   }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/related-getter-setter-pairs/>
     RelatedGetterSetterPairs(tsgolint),
     typescript,
     pedantic,

@@ -180,6 +180,10 @@ declare_oxc_lint!(
     /// a = a && b
     /// a = a ?? b
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/logical-assignment-operators>
     LogicalAssignmentOperators,
     eslint,
     style,

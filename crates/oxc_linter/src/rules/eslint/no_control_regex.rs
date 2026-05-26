@@ -82,6 +82,10 @@ declare_oxc_lint!(
     /// var pattern7 = new RegExp("\\t");
     /// var pattern8 = new RegExp("\\n");
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-control-regex>
     NoControlRegex,
     eslint,
     correctness,

@@ -262,6 +262,10 @@ declare_oxc_lint!(
     ///   qux();
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/curly>
     Curly,
     eslint,
     style,

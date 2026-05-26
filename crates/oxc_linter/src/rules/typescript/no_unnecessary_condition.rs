@@ -91,6 +91,10 @@ declare_oxc_lint!(
     ///   reportError();
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unnecessary-condition/>
     NoUnnecessaryCondition(tsgolint),
     typescript,
     nursery, // TODO(camc314): move to correctness

@@ -33,6 +33,10 @@ declare_oxc_lint!(
     /// ```js
     /// Vue.config.silent = true
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/no-deprecated-vue-config-keycodes.html>
     NoDeprecatedVueConfigKeycodes,
     vue,
     correctness,

@@ -51,6 +51,10 @@ declare_oxc_lint!(
     /// expect(a).toHaveNthReturnedWith()
     /// expect(a).toThrow()
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-alias-methods.md>
     NoAliasMethods,
     jest,
     style,

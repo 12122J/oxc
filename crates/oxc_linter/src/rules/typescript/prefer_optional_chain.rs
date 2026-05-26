@@ -91,6 +91,10 @@ declare_oxc_lint!(
     /// foo?.bar.baz?.buzz;
     /// foo?.bar;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-optional-chain/>
     PreferOptionalChain(tsgolint),
     typescript,
     nursery, // move to style after we've confirmed this works correctly on as many edge-cases as possible.

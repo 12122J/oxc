@@ -65,6 +65,10 @@ declare_oxc_lint!(
     /// new RegExp
     /// this.RegExp('[')
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-invalid-regexp>
     NoInvalidRegexp,
     eslint,
     correctness,

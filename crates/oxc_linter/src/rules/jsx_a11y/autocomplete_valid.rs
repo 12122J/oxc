@@ -69,6 +69,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <input autocomplete="name" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/autocomplete-valid.md>
     AutocompleteValid,
     jsx_a11y,
     correctness,

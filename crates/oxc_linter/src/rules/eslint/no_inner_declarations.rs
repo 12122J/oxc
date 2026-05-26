@@ -73,6 +73,10 @@ declare_oxc_lint!(
     ///   // your code here
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-inner-declarations>
     NoInnerDeclarations,
     eslint,
     pedantic,

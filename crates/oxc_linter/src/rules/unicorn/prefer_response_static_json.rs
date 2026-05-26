@@ -44,6 +44,10 @@ declare_oxc_lint!(
     /// const response = Response.json(data);
     /// const response = Response.json(data, { status: 200 });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-response-static-json.md>
     PreferResponseStaticJson,
     unicorn,
     style,

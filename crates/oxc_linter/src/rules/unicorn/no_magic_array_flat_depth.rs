@@ -45,6 +45,10 @@ declare_oxc_lint!(
     /// array.flat();
     /// array.flat(Infinity);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-magic-array-flat-depth.md>
     NoMagicArrayFlatDepth,
     unicorn,
     restriction,

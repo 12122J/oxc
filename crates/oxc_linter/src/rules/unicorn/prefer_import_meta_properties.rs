@@ -92,6 +92,10 @@ declare_oxc_lint!(
     /// const filename = import.meta.filename;
     /// const dirname = import.meta.dirname;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-import-meta-properties.md>
     PreferImportMetaProperties,
     unicorn,
     pedantic,

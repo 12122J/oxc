@@ -42,6 +42,10 @@ declare_oxc_lint!(
     /// // One is fine
     /// const [, foo] = parts;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-array-destructuring.md>
     NoUnreadableArrayDestructuring,
     unicorn,
     style,

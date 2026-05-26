@@ -121,6 +121,10 @@ declare_oxc_lint!(
     /// if (Array.isArray(arr)) { … }
     /// if (el?.nodeType === 1) { … }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-builtins.md>
     NoInstanceofBuiltins,
     unicorn,
     suspicious,

@@ -90,6 +90,10 @@ declare_oxc_lint!(
     /// // Invalid aria-* attribute
     /// const IconButton = <div aria-label="bar" />;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md>
     NoUnknownProperty,
     react,
     restriction,

@@ -65,6 +65,10 @@ declare_oxc_lint!(
     /// vi.mock(import('./path/to/module'))
     /// vi.doMock(import('./path/to/module'))
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-import-in-mock.md>
     PreferImportInMock,
     vitest,
     style,

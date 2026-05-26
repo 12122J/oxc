@@ -67,6 +67,10 @@ declare_oxc_lint!(
     /// defineOptions({ name: 'foo', inheritAttrs: false })
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/valid-define-options.html>
     ValidDefineOptions,
     vue,
     correctness,

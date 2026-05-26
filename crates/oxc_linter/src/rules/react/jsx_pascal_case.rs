@@ -104,6 +104,10 @@ declare_oxc_lint!(
     ///     <div />
     /// </_AllowedComponent>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md>
     JsxPascalCase,
     react,
     style,

@@ -58,6 +58,10 @@ declare_oxc_lint!(
     /// const foo = () => {};
     /// module.exports = foo;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-anonymous-default-export.md>
     NoAnonymousDefaultExport,
     unicorn,
     restriction,

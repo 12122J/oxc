@@ -68,6 +68,10 @@ declare_oxc_lint!(
     /// For example, the original rule may require additional resolver configuration to handle certain
     /// imports, especially when TypeScript paths are used or in monorepo setups with multiple
     /// `tsconfig.json` files.
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-as-default.md>
     NoNamedAsDefault,
     import,
     suspicious,

@@ -100,6 +100,10 @@ declare_oxc_lint!(
     /// foo;
     /// /bar/g.test(baz)
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-unexpected-multiline>
     NoUnexpectedMultiline,
     eslint,
     suspicious,

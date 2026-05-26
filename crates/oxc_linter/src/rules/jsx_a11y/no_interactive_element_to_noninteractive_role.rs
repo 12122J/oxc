@@ -72,6 +72,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <div role="img"><button>Save</button></div>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-interactive-element-to-noninteractive-role.md>
     NoInteractiveElementToNoninteractiveRole,
     jsx_a11y,
     correctness,

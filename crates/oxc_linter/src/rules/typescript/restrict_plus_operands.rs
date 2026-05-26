@@ -89,6 +89,10 @@ declare_oxc_lint!(
     /// const numResult = 42 + 58; // number + number
     /// const strResult = 'hello' + 'world'; // string + string
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/restrict-plus-operands/>
     RestrictPlusOperands(tsgolint),
     typescript,
     pedantic,

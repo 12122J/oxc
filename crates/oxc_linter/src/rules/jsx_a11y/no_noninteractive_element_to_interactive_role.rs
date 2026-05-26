@@ -138,6 +138,10 @@ declare_oxc_lint!(
     /// <div role="button">Submit</div>
     /// <ul role="menu"><li role="menuitem">Item</li></ul>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-noninteractive-element-to-interactive-role.md>
     NoNoninteractiveElementToInteractiveRole,
     jsx_a11y,
     correctness,

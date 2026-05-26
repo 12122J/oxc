@@ -208,6 +208,10 @@ declare_oxc_lint!(
     /// legacyApi.stableMethod()
     /// ```
     ///
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-restricted-properties>
     NoRestrictedProperties,
     eslint,
     restriction,

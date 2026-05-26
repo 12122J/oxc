@@ -85,6 +85,10 @@ declare_oxc_lint!(
     /// const { baz } = object;
     /// const obj = object.bar;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/prefer-destructuring>
     PreferDestructuring,
     eslint,
     style,

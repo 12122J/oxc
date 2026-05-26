@@ -158,6 +158,10 @@ declare_oxc_lint!(
     ///   return a
     /// });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/array-callback-return>
     ArrayCallbackReturn,
     eslint,
     pedantic,

@@ -82,6 +82,10 @@ declare_oxc_lint!(
     ///   .then((data) => { console.log(data) })
     ///   .catch((err) => { console.error(err) })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-callback-in-promise.md>
     NoCallbackInPromise,
     promise,
     correctness,

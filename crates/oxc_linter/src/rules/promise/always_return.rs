@@ -180,6 +180,10 @@ declare_oxc_lint!(
     ///     }
     /// })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/always-return.md>
     AlwaysReturn,
     promise,
     suspicious,

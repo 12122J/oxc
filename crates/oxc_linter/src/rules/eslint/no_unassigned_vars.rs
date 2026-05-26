@@ -47,6 +47,10 @@ declare_oxc_lint!(
     /// user = getUser();
     /// console.log(user.name);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-unassigned-vars>
     NoUnassignedVars,
     eslint,
     correctness,

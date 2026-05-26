@@ -48,6 +48,10 @@ declare_oxc_lint!(
     ///     }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-this-before-super>
     NoThisBeforeSuper,
     eslint,
     correctness,

@@ -53,6 +53,10 @@ declare_oxc_lint!(
     ///   expect(mock).toHaveBeenCalledOnce()
     /// })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-called-once.md>
     PreferCalledOnce,
     vitest,
     style,

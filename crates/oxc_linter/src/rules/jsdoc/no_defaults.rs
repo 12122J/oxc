@@ -46,6 +46,10 @@ declare_oxc_lint!(
     /// /** @param foo */
     /// function quux (foo) {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/noDefaults.md>
     NoDefaults,
     jsdoc,
     correctness,

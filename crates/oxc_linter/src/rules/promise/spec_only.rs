@@ -56,6 +56,10 @@ declare_oxc_lint!(
     /// ```js
     /// Promise.resolve()
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/spec-only.md>
     SpecOnly,
     promise,
     restriction,

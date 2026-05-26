@@ -170,6 +170,10 @@ declare_oxc_lint!(
     /// if (foo == null) {}
     /// if (foo != null) {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/eqeqeq>
     Eqeqeq,
     eslint,
     pedantic,

@@ -43,6 +43,10 @@ declare_oxc_lint!(
     /// 	}
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/switch-case-break-position.md>
     SwitchCaseBreakPosition,
     unicorn,
     style,

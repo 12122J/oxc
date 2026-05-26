@@ -74,6 +74,10 @@ declare_oxc_lint!(
     /// const error = new Error('Error message');
     /// Promise.reject(error);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-promise-reject-errors/>
     PreferPromiseRejectErrors(tsgolint),
     typescript,
     pedantic,

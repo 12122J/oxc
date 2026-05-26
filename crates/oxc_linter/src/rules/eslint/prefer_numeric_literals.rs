@@ -56,6 +56,10 @@ declare_oxc_lint!(
     /// Number.parseInt("767", 8) === 503;
     /// Number.parseInt("1F7", 16) === 503;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/prefer-numeric-literals>
     PreferNumericLiterals,
     eslint,
     style,

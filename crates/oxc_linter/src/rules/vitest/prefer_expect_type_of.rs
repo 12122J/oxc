@@ -61,6 +61,10 @@ declare_oxc_lint!(
     ///   expect(undefined).toBeTypeOf('undefined')
     /// })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-expect-type-of.md>
     PreferExpectTypeOf,
     vitest,
     style,

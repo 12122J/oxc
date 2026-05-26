@@ -80,6 +80,10 @@ declare_oxc_lint!(
     ///   foo = "bar";
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-class-fields.md>
     PreferClassFields,
     unicorn,
     style,

@@ -76,6 +76,10 @@ declare_oxc_lint!(
     ///   }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/use-unknown-in-catch-callback-variable/>
     UseUnknownInCatchCallbackVariable(tsgolint),
     typescript,
     restriction,

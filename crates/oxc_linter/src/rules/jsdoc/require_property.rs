@@ -56,6 +56,10 @@ declare_oxc_lint!(
     ///  * @property someProp
     ///  */
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireProperty.md>
     RequireProperty,
     jsdoc,
     correctness,

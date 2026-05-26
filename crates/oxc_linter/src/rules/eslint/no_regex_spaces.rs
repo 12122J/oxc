@@ -49,6 +49,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// var re = /foo   bar/;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-regex-spaces>
     NoRegexSpaces,
     eslint,
     restriction,

@@ -87,6 +87,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// let num = parseInt("071", 10);  // 71
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/radix>
     Radix,
     eslint,
     pedantic,

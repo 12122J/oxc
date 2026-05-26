@@ -66,6 +66,10 @@ declare_oxc_lint!(
     ///     .toBeInTheDocument()
     /// })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-awaited-expect-poll.md>
     RequireAwaitedExpectPoll,
     vitest,
     correctness,

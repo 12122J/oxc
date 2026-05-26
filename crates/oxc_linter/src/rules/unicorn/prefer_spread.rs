@@ -40,6 +40,10 @@ declare_oxc_lint!(
     /// [...set].map(() => {});
     /// Array.from(...argumentsArray);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-spread.md>
     PreferSpread,
     unicorn,
     style,

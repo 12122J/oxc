@@ -96,6 +96,10 @@ declare_oxc_lint!(
     ///   return data1 + data2;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/return-await/>
     ReturnAwait(tsgolint),
     typescript,
     pedantic,

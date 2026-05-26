@@ -139,6 +139,11 @@ afterEach(() => {
     clearCityDatabase();
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/require-hook.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-hook.md>
 ";
 
 #[derive(Debug, Default, Clone, JsonSchema, Deserialize)]

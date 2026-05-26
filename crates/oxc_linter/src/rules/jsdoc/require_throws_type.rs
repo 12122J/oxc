@@ -43,6 +43,10 @@ declare_oxc_lint!(
     ///   throw new Error('error');
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireThrowsType.md>
     RequireThrowsType,
     jsdoc,
     pedantic,

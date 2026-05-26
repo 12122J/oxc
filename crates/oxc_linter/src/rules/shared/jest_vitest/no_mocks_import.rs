@@ -37,6 +37,11 @@ Examples of **correct** code for this rule:
 import thing from 'thing';
 require('thing');
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-mocks-import.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-mocks-import.md>
 ";
 
 pub fn run_once(ctx: &LintContext) {

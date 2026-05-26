@@ -93,6 +93,10 @@ declare_oxc_lint!(
     /// var A = class {};
     /// new A();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-use-before-define>
     NoUseBeforeDefine,
     eslint,
     restriction,

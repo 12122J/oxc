@@ -58,6 +58,10 @@ declare_oxc_lint!(
     /// ```js
     /// return test ? a : b;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-ternary.md>
     PreferTernary,
     unicorn,
     style,

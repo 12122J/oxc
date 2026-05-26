@@ -89,6 +89,10 @@ declare_oxc_lint!(
     /// foo(function () { this; });
     /// foo(function bar() { bar(); });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/prefer-arrow-callback>
     PreferArrowCallback,
     eslint,
     style,

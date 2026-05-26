@@ -84,6 +84,10 @@ declare_oxc_lint!(
     /// <Marquee />
     /// <Blink />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-distracting-elements.md>
     NoDistractingElements,
     jsx_a11y,
     correctness,

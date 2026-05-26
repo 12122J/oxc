@@ -55,6 +55,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// if (str.includes('foo')) { }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-includes.md>
     PreferIncludes,
     unicorn,
     style,

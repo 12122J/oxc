@@ -68,6 +68,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// new Promise(function(resolve, reject) {})
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/param-names.md>
     ParamNames,
     promise,
     style,

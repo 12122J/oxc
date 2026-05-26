@@ -49,6 +49,10 @@ declare_oxc_lint!(
     /// BigInt("not-a-number");
     /// BigInt("1.23");
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-bigint-literals.md>
     PreferBigintLiterals,
     unicorn,
     style,

@@ -60,6 +60,10 @@ declare_oxc_lint!(
     /// // ./foo.js
     /// import { bar } from './bar'; // Correct: accessing named export directly
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-as-default-member.md>
     NoNamedAsDefaultMember,
     import,
     suspicious,

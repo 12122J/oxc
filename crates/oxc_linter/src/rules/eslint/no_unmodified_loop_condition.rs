@@ -47,6 +47,10 @@ declare_oxc_lint!(
     ///   done = checkDone();
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-unmodified-loop-condition>
     NoUnmodifiedLoopCondition,
     eslint,
     suspicious,

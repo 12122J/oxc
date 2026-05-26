@@ -48,6 +48,10 @@ declare_oxc_lint!(
     /// var a, b, c, d;
     /// var B, a, c;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/sort-vars>
     SortVars,
     eslint,
     pedantic,

@@ -44,6 +44,11 @@ Examples of **correct** code for this rule:
 expect(a).toContain(b);
 expect(a).not.toContain(b);
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-contain.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-to-contain.md>
 ";
 
 pub fn run<'a>(possible_jest_node: &PossibleJestNode<'a, '_>, ctx: &LintContext<'a>) {

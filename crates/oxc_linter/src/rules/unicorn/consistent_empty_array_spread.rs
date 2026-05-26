@@ -50,6 +50,10 @@ declare_oxc_lint!(
     /// 	...(foo ? 'bc' : ''),
     /// ];
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-empty-array-spread.md>
     ConsistentEmptyArraySpread,
     unicorn,
     pedantic,

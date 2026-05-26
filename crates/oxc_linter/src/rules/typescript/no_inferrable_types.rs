@@ -58,6 +58,10 @@ declare_oxc_lint!(
     /// const c = true;
     /// const fn = (a = 5, b = true, c = 'foo') => {};
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-inferrable-types/>
     NoInferrableTypes,
     typescript,
     style,

@@ -57,6 +57,10 @@ declare_oxc_lint!(
     /// React.createElement('div', { children: 'Children' })
     /// React.createElement('div', { dangerouslySetInnerHTML: { __html: 'HTML' } })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/void-dom-elements-no-children.md>
     VoidDomElementsNoChildren,
     react,
     correctness,

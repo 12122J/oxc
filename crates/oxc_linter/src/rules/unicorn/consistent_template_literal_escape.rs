@@ -37,6 +37,10 @@ declare_oxc_lint!(
     /// ```js
     /// const foo = `\${a}`;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-template-literal-escape.md>
     ConsistentTemplateLiteralEscape,
     unicorn,
     style,

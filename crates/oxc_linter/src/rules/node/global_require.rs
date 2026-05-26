@@ -95,6 +95,10 @@ declare_oxc_lint!(
     /// var x = require("x"),
     ///     z = require("z");
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/global-require.md>
     GlobalRequire,
     node,
     style,

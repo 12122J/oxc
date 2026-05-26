@@ -52,6 +52,10 @@ declare_oxc_lint!(
     ///   static bar() {}
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-static-only-class.md>
     NoStaticOnlyClass,
     unicorn,
     pedantic,

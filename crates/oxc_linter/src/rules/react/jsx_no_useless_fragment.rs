@@ -60,6 +60,10 @@ declare_oxc_lint!(
     /// <>foo <div></div></>
     /// <div>foo</div>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md>
     JsxNoUselessFragment,
     react,
     pedantic,

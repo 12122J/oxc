@@ -129,6 +129,10 @@ declare_oxc_lint!(
     /// defineProps()
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/valid-define-props.html>
     ValidDefineProps,
     vue,
     correctness,

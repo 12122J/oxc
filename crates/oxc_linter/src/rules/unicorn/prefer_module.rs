@@ -54,6 +54,10 @@ declare_oxc_lint!(
     /// import foo from "foo";
     /// export default foo;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-module.md>
     PreferModule,
     unicorn,
     restriction,

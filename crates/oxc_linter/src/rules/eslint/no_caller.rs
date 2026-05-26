@@ -69,6 +69,10 @@ declare_oxc_lint!(
     ///   return !(n > 1) ? 1 : factorial(n - 1) * n;
     /// });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-caller>
     NoCaller,
     eslint,
     correctness,

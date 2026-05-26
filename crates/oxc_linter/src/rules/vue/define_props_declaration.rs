@@ -81,6 +81,10 @@ declare_oxc_lint!(
     ///	})
     ///	</script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/define-props-declaration.html>
     DefinePropsDeclaration,
     vue,
     style,

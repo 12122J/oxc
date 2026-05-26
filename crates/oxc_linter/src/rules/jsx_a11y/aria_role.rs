@@ -95,6 +95,10 @@ declare_oxc_lint!(
     /// <div></div>                   <!-- Good: No ARIA role -->
     /// <Foo role={role}></Foo>       <!-- Good: ignoreNonDOM is set to true -->
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/aria-role.md>
     AriaRole,
     jsx_a11y,
     correctness,

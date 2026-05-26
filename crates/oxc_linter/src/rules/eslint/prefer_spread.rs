@@ -62,6 +62,10 @@ declare_oxc_lint!(
     /// foo.apply(null, [1, 2, 3]);
     /// obj.foo.apply(obj, [1, 2, 3]);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/prefer-spread>
     PreferSpread,
     eslint,
     style,

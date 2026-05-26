@@ -63,6 +63,10 @@ declare_oxc_lint!(
     /// ```js
     /// const sorted = [...array].toSorted();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-sort.md>
     NoArraySort,
     unicorn,
     suspicious,

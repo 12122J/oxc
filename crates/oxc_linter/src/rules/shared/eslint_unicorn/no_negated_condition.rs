@@ -42,6 +42,11 @@ if (a) {
 
 a ? doSomethingB() : doSomethingC()
 ```
+
+### References
+
+- <https://eslint.org/docs/latest/rules/no-negated-condition>
+- <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-negated-condition.md>
 ";
 
 pub fn run_on_if_statement(if_stmt: &IfStatement<'_>, ctx: &LintContext) {

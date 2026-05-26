@@ -49,6 +49,10 @@ declare_oxc_lint!(
     /// ```ts
     /// export const value = 'Hello, world!';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-useless-empty-export/>
     NoUselessEmptyExport,
     typescript,
     correctness,

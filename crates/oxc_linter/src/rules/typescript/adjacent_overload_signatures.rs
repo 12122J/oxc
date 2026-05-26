@@ -82,6 +82,10 @@ declare_oxc_lint!(
     /// export function bar(): void;
     /// export function foo(sn: string | number): void;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/adjacent-overload-signatures/>
     AdjacentOverloadSignatures,
     typescript,
     style,

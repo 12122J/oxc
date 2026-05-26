@@ -56,6 +56,10 @@ declare_oxc_lint!(
     ///     }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-error-capture-stack-trace.md>
     NoUselessErrorCaptureStackTrace,
     unicorn,
     restriction,

@@ -51,6 +51,10 @@ declare_oxc_lint!(
     ///   return 0;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/consistent-return/>
     ConsistentReturn(tsgolint),
     typescript,
     suspicious,

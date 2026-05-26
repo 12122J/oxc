@@ -65,6 +65,10 @@ declare_oxc_lint!(
     ///     // correctly compared `jobTitle`
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-cond-assign>
     NoCondAssign,
     eslint,
     correctness,

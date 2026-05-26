@@ -176,6 +176,10 @@ declare_oxc_lint!(
     /// ```ts
     /// type T = import('foo').Bar;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/consistent-type-imports/>
     ConsistentTypeImports,
     typescript,
     style,

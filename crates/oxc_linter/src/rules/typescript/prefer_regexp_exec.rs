@@ -28,6 +28,10 @@ declare_oxc_lint!(
     /// const text = 'value';
     /// /v/.exec(text);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-regexp-exec/>
     PreferRegexpExec(tsgolint),
     typescript,
     style,

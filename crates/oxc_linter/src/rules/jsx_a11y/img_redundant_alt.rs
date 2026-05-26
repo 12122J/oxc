@@ -99,6 +99,10 @@ declare_oxc_lint!(
     /// <img src="bar" aria-hidden alt="Picture of me taking a photo of an image" /> // Will pass because it is hidden.
     /// <img src="baz" alt={`Baz taking a ${photo}`} /> // This is valid since photo is a variable name.
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/img-redundant-alt.md>
     ImgRedundantAlt,
     jsx_a11y,
     correctness,

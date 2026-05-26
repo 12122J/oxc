@@ -108,6 +108,10 @@ declare_oxc_lint!(
     /// <div role="button">Submit</div>
     /// <div role="checkbox" aria-labelledby="label_id" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/control-has-associated-label.md>
     ControlHasAssociatedLabel,
     jsx_a11y,
     correctness,

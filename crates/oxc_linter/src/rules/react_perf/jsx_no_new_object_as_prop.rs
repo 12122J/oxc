@@ -41,6 +41,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <Item config={staticConfig} />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/cvazac/eslint-plugin-react-perf/blob/master/docs/rules/jsx-no-new-object-as-prop.md>
     JsxNoNewObjectAsProp,
     react_perf,
     perf,

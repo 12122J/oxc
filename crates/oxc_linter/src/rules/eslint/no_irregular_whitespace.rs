@@ -88,6 +88,10 @@ declare_oxc_lint!(
     ///   var foo = 'bar'; // regular spaces only
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-irregular-whitespace>
     NoIrregularWhitespace,
     eslint,
     correctness,

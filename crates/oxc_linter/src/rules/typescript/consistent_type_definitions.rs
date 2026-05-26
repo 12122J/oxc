@@ -83,6 +83,10 @@ declare_oxc_lint!(
     ///   x: number;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/consistent-type-definitions/>
     ConsistentTypeDefinitions,
     typescript,
     style,

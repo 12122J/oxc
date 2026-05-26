@@ -26,6 +26,10 @@ declare_oxc_lint!(
     /// ```ts
     /// const first = list.find(item => item.active);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-find/>
     PreferFind(tsgolint),
     typescript,
     style,

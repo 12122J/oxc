@@ -40,6 +40,10 @@ declare_oxc_lint!(
     /// const str2 = `Time: ${12 * 60 * 60 * 1000}`;
     /// const str4 = "Hello, " + "World!";
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/prefer-template>
     PreferTemplate,
     eslint,
     style,

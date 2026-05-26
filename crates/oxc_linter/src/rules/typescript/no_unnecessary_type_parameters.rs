@@ -34,6 +34,10 @@ declare_oxc_lint!(
     ///   return value;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unnecessary-type-parameters/>
     NoUnnecessaryTypeParameters(tsgolint),
     typescript,
     suspicious,

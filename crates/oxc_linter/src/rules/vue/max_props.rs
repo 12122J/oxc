@@ -80,6 +80,10 @@ declare_oxc_lint!(
     /// })
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/max-props.html>
     MaxProps,
     vue,
     restriction,

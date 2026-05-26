@@ -52,6 +52,10 @@ declare_oxc_lint!(
     ///   const [{ value: foo, reason: error }] = await Promise.allSettled([promise]);
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-single-promise-in-promise-methods.md>
     NoSinglePromiseInPromiseMethods,
     unicorn,
     correctness,

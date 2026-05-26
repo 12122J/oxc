@@ -164,6 +164,10 @@ declare_oxc_lint!(
     ///   test('test', () => {})
     /// })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/consistent-each-for.md>
     ConsistentEachFor,
     vitest,
     correctness,

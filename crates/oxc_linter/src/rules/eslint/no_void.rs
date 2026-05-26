@@ -50,6 +50,10 @@ declare_oxc_lint!(
     /// "foo.void()";
     /// "foo.void = bar";
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-void>
     NoVoid,
     eslint,
     restriction,

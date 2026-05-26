@@ -60,6 +60,10 @@ declare_oxc_lint!(
     ///
     /// /** @private */
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/emptyTags.md>
     EmptyTags,
     jsdoc,
     restriction,

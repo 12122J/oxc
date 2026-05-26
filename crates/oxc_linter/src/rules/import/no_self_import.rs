@@ -38,6 +38,10 @@ declare_oxc_lint!(
     /// // foo.js
     /// import bar from './bar.js';  // Correct: module imports another module
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-self-import.md>
     NoSelfImport,
     import,
     suspicious,

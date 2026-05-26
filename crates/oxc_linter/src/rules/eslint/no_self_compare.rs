@@ -33,6 +33,10 @@ declare_oxc_lint!(
     ///   x = 20;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-self-compare>
     NoSelfCompare,
     eslint,
     pedantic, // The code is not wrong if it is intended to check for NaNs, which is the majority of

@@ -74,6 +74,10 @@ declare_oxc_lint!(
     /// );
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/no-required-prop-with-default.html>
     NoRequiredPropWithDefault,
     vue,
     suspicious,

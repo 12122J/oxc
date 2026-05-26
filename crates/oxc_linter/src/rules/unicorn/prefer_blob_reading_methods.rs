@@ -52,6 +52,10 @@ declare_oxc_lint!(
     ///     const arrayBuffer = await blob.arrayBuffer();
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-blob-reading-methods.md>
     PreferBlobReadingMethods,
     unicorn,
     pedantic,

@@ -49,6 +49,11 @@ expect(x).toBe(5);
 expect(name).not.toEqual('Carl');
 expect(myObj).toStrictEqual(thatObj);
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-equality-matcher.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-equality-matcher.md>
 ";
 
 pub fn run_on_jest_node<'a, 'c>(

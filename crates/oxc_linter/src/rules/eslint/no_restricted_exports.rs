@@ -179,6 +179,10 @@ declare_oxc_lint!(
     /// ### Why is this bad?
     ///
     /// In a project, certain names may be disallowed from being used as exported names for various reasons.
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-restricted-exports>
     NoRestrictedExports,
     eslint,
     nursery, // TODO: change category to `restriction`

@@ -105,6 +105,10 @@ declare_oxc_lint!(
     /// x = x + y;
     /// x.y = x.y / a.b;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/operator-assignment>
     OperatorAssignment,
     eslint,
     style,

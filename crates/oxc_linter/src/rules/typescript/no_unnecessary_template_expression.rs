@@ -60,6 +60,10 @@ declare_oxc_lint!(
     ///   world
     /// `;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unnecessary-template-expression/>
     NoUnnecessaryTemplateExpression(tsgolint),
     typescript,
     suspicious,

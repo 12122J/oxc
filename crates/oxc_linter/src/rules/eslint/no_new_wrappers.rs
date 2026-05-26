@@ -61,6 +61,10 @@ declare_oxc_lint!(
     /// var booleanObject = Boolean(value);
     /// var symbolObject = Symbol('foo');
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-new-wrappers>
     NoNewWrappers,
     eslint,
     pedantic,

@@ -74,6 +74,10 @@ declare_oxc_lint!(
     /// React.createElement('input', { type: 'checkbox', checked: true, onChange() {}, readOnly: true });
     /// React.createElement('input', { type: 'checkbox', defaultChecked: true });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/checked-requires-onchange-or-readonly.md>
     CheckedRequiresOnchangeOrReadonly,
     react,
     pedantic,

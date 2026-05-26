@@ -75,6 +75,10 @@ declare_oxc_lint!(
     /// import { y } from './bar';
     /// export { x, y }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/first.md>
     First,
     import,
     style,

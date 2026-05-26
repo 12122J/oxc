@@ -44,6 +44,10 @@ declare_oxc_lint!(
     ///     await Promise.all(users.map(user => getUserRecord(user)));
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-await-in-loop>
     NoAwaitInLoop,
     eslint,
     perf,

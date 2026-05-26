@@ -54,6 +54,10 @@ declare_oxc_lint!(
     ///   Blue,
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-mixed-enums/>
     NoMixedEnums(tsgolint),
     typescript,
     pedantic,

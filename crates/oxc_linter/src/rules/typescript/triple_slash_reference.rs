@@ -94,6 +94,10 @@ declare_oxc_lint!(
     /// /// <reference lib="code" />
     /// globalThis.value;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/triple-slash-reference/>
     TripleSlashReference,
     typescript,
     correctness,

@@ -35,6 +35,10 @@ declare_oxc_lint!(
     /// import { mod } from 'mod'
     /// import Default, { mod } from 'mod'
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-empty-named-blocks.md>
     NoEmptyNamedBlocks,
     import,
     suspicious,

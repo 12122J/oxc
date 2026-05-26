@@ -49,6 +49,10 @@ declare_oxc_lint!(
     /// var foo = someFunction();
     /// var bar = a + 1;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-undef>
     NoUndef,
     eslint,
     nursery,

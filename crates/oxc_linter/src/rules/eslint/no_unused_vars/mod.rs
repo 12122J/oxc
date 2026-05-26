@@ -189,6 +189,10 @@ declare_oxc_lint!(
     /// // Not respected, use ES modules instead.
     /// var global_var = 42;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-unused-vars>
     NoUnusedVars,
     eslint,
     correctness,

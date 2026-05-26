@@ -89,6 +89,10 @@ declare_oxc_lint!(
     ///   console.log(i);
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/prefer-const>
     PreferConst,
     eslint,
     style,

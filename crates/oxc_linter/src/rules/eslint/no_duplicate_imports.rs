@@ -117,6 +117,10 @@ declare_oxc_lint!(
     /// import { merge, find } from 'module';
     /// import something from 'another-module';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-duplicate-imports>
     NoDuplicateImports,
     eslint,
     style,

@@ -87,6 +87,11 @@ it('throws an error', async () => {
   await expect(foo).rejects.toThrow(Error);
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-conditional-expect.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-conditional-expect.md>
 ";
 
 // To flag we encountered a conditional block/catch block when traversing the parents.

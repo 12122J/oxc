@@ -58,6 +58,10 @@ declare_oxc_lint!(
     ///    console.log(event);    // Unexpected global variable 'event'. Use local parameter instead.
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-restricted-globals>
     NoRestrictedGlobals,
     eslint,
     restriction,

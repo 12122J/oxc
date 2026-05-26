@@ -53,6 +53,10 @@ declare_oxc_lint!(
     /// Math.log10(x);
     /// Math.hypot(a, b);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-modern-math-apis.md>
     PreferModernMathApis,
     unicorn,
     restriction,

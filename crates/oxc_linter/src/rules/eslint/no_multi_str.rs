@@ -31,6 +31,10 @@ declare_oxc_lint!(
     /// var x = "Line 1 \
     ///  Line 2";
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-multi-str>
     NoMultiStr,
     eslint,
     style,

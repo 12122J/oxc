@@ -49,6 +49,11 @@ expect('something').toEqual('something');
 expect(true).toBeDefined();
 expect(Promise.resolve('Hi!')).resolves.toBe('Hi!');
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/valid-expect.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/valid-expect.md>
 ";
 
 #[derive(Debug, Clone, JsonSchema)]

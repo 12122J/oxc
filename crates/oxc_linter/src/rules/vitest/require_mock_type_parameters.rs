@@ -105,6 +105,10 @@ declare_oxc_lint!(
     /// })
     /// const fs = await vi.importMock<any>('fs')
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-mock-type-parameters.md>
     RequireMockTypeParameters,
     vitest,
     correctness,

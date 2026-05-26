@@ -47,6 +47,10 @@ declare_oxc_lint!(
     /// import 'foo';
     /// import foo from 'foo';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-module-specifiers.md>
     RequireModuleSpecifiers,
     unicorn,
     suspicious,

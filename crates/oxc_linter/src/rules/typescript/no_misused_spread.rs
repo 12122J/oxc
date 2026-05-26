@@ -62,6 +62,10 @@ declare_oxc_lint!(
     /// const str = 'hello';
     /// const arr4 = Array.from(str); // ['h', 'e', 'l', 'l', 'o']
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-misused-spread/>
     NoMisusedSpread(tsgolint),
     typescript,
     correctness,

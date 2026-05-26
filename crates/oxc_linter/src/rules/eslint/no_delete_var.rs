@@ -41,6 +41,10 @@ declare_oxc_lint!(
     /// var y;
     /// delete y.prop;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-delete-var>
     NoDeleteVar,
     eslint,
     correctness,

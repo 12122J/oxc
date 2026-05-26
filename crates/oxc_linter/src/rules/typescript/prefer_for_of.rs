@@ -49,6 +49,10 @@ declare_oxc_lint!(
     ///   console.log(item);
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-for-of/>
     PreferForOf,
     typescript,
     style,

@@ -52,6 +52,10 @@ declare_oxc_lint!(
     ///     <li tabIndex="0" role="radio" aria-checked="true">Lake Trout</li>
     /// </ul>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/role-supports-aria-props.md>
     RoleSupportsAriaProps,
     jsx_a11y,
     correctness,

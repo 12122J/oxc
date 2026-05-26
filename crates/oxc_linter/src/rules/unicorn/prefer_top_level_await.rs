@@ -57,6 +57,10 @@ declare_oxc_lint!(
     ///     console.error(error);
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-top-level-await.md>
     PreferTopLevelAwait,
     unicorn,
     pedantic,

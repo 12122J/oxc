@@ -42,6 +42,10 @@ declare_oxc_lint!(
     /// el.removeEventListener('click', handler);
     /// el.removeEventListener('click', handler.bind(this));
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-remove-event-listener.md>
     NoInvalidRemoveEventListener,
     unicorn,
     correctness,

@@ -92,6 +92,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// var x = y > z;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-bitwise>
     NoBitwise,
     eslint,
     restriction,

@@ -84,6 +84,10 @@ declare_oxc_lint!(
     /// const version = 42;
     /// const isProduction = () => process.env.NODE_ENV === 'production';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-extraneous-class/>
     NoExtraneousClass,
     typescript,
     suspicious,

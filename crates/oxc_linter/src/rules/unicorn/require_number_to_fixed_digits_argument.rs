@@ -36,6 +36,10 @@ declare_oxc_lint!(
     /// number.toFixed(0);
     /// number.toFixed(2);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-number-to-fixed-digits-argument.md>
     RequireNumberToFixedDigitsArgument,
     unicorn,
     pedantic,

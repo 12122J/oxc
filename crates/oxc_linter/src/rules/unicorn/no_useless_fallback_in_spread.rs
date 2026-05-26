@@ -36,6 +36,10 @@ declare_oxc_lint!(
     /// const object = { ...foo }
     /// const object = { ...(foo || { not: "empty" }) }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-fallback-in-spread.md>
     NoUselessFallbackInSpread,
     unicorn,
     correctness,

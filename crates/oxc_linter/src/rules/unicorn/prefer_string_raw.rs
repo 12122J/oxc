@@ -39,6 +39,10 @@ declare_oxc_lint!(
     /// const file = String.raw`C:\windows\style\path\to\file.js`;
     /// const regexp = new RegExp(String.raw`foo\.bar`);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-raw.md>
     PreferStringRaw,
     unicorn,
     style,

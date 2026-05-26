@@ -70,6 +70,11 @@ myFunction
   .mockResolvedValueOnce(42)
   .mockReturnValue(0);
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-mock-return-shorthand.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-mock-return-shorthand.md>
 ";
 
 pub fn run<'a>(node: &AstNode<'a>, ctx: &LintContext<'a>) {

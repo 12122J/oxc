@@ -93,6 +93,10 @@ declare_oxc_lint!(
     /// const getValue = instance2.getValue; // Safe - arrow function preserves 'this'
     /// getValue(); // Correct
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/unbound-method/>
     UnboundMethod(tsgolint),
     typescript,
     correctness,

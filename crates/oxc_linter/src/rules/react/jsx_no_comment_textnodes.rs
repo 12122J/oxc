@@ -48,6 +48,10 @@ declare_oxc_lint!(
     ///   return <div>{/* empty div */}</div>;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md>
     JsxNoCommentTextnodes,
     react,
     suspicious,

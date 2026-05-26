@@ -54,6 +54,10 @@ declare_oxc_lint!(
     ///   // ...
     /// })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-describe-function-title.md>
     PreferDescribeFunctionTitle,
     vitest,
     style,

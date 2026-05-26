@@ -47,6 +47,10 @@ declare_oxc_lint!(
     /// }
     /// export async function getServerSideProps(){};
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-typos>
     NoTypos,
     nextjs,
     correctness,

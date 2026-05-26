@@ -62,6 +62,10 @@ declare_oxc_lint!(
     /// // Using different type
     /// const container2: Container<string> = { value: 'hello' };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unnecessary-type-arguments/>
     NoUnnecessaryTypeArguments(tsgolint),
     typescript,
     suspicious,

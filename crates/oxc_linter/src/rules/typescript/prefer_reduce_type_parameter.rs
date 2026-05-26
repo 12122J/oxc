@@ -56,6 +56,10 @@ declare_oxc_lint!(
     ///   return acc;
     /// }, {});
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-reduce-type-parameter/>
     PreferReduceTypeParameter(tsgolint),
     typescript,
     style,

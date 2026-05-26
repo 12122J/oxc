@@ -58,6 +58,10 @@ declare_oxc_lint!(
     /// ```typescript
     /// namespace Example {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-namespace-keyword/>
     PreferNamespaceKeyword,
     typescript,
     correctness,

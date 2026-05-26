@@ -42,6 +42,10 @@ declare_oxc_lint!(
     /// let x = "8"
     /// let y = "\\9"
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-nonoctal-decimal-escape>
     NoNonoctalDecimalEscape,
     eslint,
     correctness,

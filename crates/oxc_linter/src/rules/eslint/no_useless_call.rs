@@ -62,6 +62,10 @@ declare_oxc_lint!(
     /// foo.apply(null, args);
     /// obj.foo.apply(obj, args);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-useless-call>
     NoUselessCall,
     eslint,
     perf,

@@ -77,6 +77,10 @@ declare_oxc_lint!(
     ///   return <div>Hello {name}</div>;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md>
     NoMultiComp,
     react,
     restriction,

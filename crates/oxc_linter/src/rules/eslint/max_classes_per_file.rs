@@ -69,6 +69,10 @@ declare_oxc_lint!(
     ///     const qux = 3;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/max-classes-per-file>
     MaxClassesPerFile,
     eslint,
     pedantic,

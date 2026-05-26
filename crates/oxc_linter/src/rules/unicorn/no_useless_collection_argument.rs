@@ -59,6 +59,10 @@ declare_oxc_lint!(
     /// ```js
     /// const set = new Set(foo);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-collection-argument.md>
     NoUselessCollectionArgument,
     unicorn,
     style,

@@ -82,6 +82,10 @@ declare_oxc_lint!(
     ///         break;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-extra-label>
     NoExtraLabel,
     eslint,
     style,

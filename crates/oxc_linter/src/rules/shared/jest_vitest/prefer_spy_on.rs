@@ -55,6 +55,11 @@ Examples of **correct** code for this rule:
 jest.spyOn(Date, 'now');
 jest.spyOn(Date, 'now').mockImplementation(() => 10);
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-spy-on.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-spy-on.md>
 ";
 
 pub fn run<'a>(node: &AstNode<'a>, ctx: &LintContext<'a>) {

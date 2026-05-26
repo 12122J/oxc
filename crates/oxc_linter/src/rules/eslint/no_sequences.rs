@@ -76,6 +76,10 @@ declare_oxc_lint!(
     /// // Arrow function body needs double parentheses
     /// const fn = () => ((doSomething(), val));
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-sequences>
     NoSequences,
     eslint,
     restriction,

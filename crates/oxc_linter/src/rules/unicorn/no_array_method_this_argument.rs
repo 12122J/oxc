@@ -47,6 +47,10 @@ declare_oxc_lint!(
     /// const self = this;
     /// array.map(function(x) { return x + self.y });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-method-this-argument.md>
     NoArrayMethodThisArgument,
     unicorn,
     style,

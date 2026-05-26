@@ -49,6 +49,10 @@ declare_oxc_lint!(
     /// Reflect.apply(Array.prototype.forEach, arrayLike, [callback]);
     /// const maxValue = Math.max.apply(Math, numbers);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-prototype-methods.md>
     PreferPrototypeMethods,
     unicorn,
     pedantic,

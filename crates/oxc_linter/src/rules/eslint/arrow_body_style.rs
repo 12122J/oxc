@@ -190,6 +190,10 @@ declare_oxc_lint!(
     /// const foo = () => {};
     /// const bar = () => { return { bar: 0 }; };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/arrow-body-style>
     ArrowBodyStyle,
     eslint,
     style,

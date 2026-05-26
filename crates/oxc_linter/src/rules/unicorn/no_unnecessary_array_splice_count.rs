@@ -50,6 +50,10 @@ declare_oxc_lint!(
     /// array.splice(1);
     /// array.toSpliced(1);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-array-splice-count.md>
     NoUnnecessaryArraySpliceCount,
     unicorn,
     pedantic,

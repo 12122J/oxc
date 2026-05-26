@@ -60,6 +60,10 @@ declare_oxc_lint!(
     /// const foo = array.flat();
     /// const foo = [maybeArray].flat();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-flat.md>
     PreferArrayFlat,
     unicorn,
     pedantic,

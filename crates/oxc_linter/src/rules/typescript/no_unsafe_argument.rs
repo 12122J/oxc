@@ -50,6 +50,10 @@ declare_oxc_lint!(
     /// // Type assertion if you're sure about the type
     /// takesString(unknownValue as string); // explicitly unsafe, but intentional
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unsafe-argument/>
     NoUnsafeArgument(tsgolint),
     typescript,
     pedantic,

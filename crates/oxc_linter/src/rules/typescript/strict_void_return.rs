@@ -44,6 +44,10 @@ declare_oxc_lint!(
     ///
     /// run(() => undefined);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/strict-void-return/>
     StrictVoidReturn(tsgolint),
     typescript,
     pedantic,

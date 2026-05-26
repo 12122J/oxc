@@ -97,6 +97,10 @@ declare_oxc_lint!(
     /// /** * @yields Foo */
     /// function * quux (foo) { yield foo; }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireYields.md>
     RequireYields,
     jsdoc,
     correctness,

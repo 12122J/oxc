@@ -122,6 +122,10 @@ declare_oxc_lint!(
     ///     Surname
     /// </label>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/label-has-associated-control.md>
     LabelHasAssociatedControl,
     jsx_a11y,
     correctness,

@@ -72,6 +72,10 @@ declare_oxc_lint!(
     /// <button type="button" />
     /// <button type="submit" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/button-has-type.md>
     ButtonHasType,
     react,
     restriction,

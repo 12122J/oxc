@@ -44,6 +44,10 @@ declare_oxc_lint!(
     /// /** @param foo Foo. */
     /// function quux (foo) {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireParamDescription.md>
     RequireParamDescription,
     jsdoc,
     pedantic,

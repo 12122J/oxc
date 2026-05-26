@@ -63,6 +63,10 @@ declare_oxc_lint!(
     /// var a = 3;
     /// a = 10;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-redeclare>
     NoRedeclare,
     eslint,
     pedantic,

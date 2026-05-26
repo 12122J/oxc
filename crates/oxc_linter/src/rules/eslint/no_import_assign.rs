@@ -47,6 +47,10 @@ declare_oxc_lint!(
     /// // Can't extend 'mod_ns'
     /// Object.assign(mod_ns, { foo: "foo" }) // ERROR: The members of 'mod_ns' are readonly.
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-import-assign>
     NoImportAssign,
     eslint,
     correctness,

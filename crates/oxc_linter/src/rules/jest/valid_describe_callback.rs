@@ -45,6 +45,10 @@ declare_oxc_lint!(
     ///     expect(myFunction()).toBeTruthy();
     /// }));
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/valid-describe-callback.md>
     ValidDescribeCallback,
     jest,
     correctness,

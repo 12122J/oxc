@@ -55,6 +55,10 @@ declare_oxc_lint!(
     ///  return a + b;
     /// };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-new-func>
     NoNewFunc,
     eslint,
     style,

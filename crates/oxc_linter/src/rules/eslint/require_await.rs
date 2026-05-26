@@ -77,6 +77,10 @@ declare_oxc_lint!(
     ///    await doSomething();
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/require-await>
     RequireAwait,
     eslint,
     pedantic,

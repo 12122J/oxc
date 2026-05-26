@@ -64,6 +64,10 @@ declare_oxc_lint!(
     ///   await thing().then(x => {})
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/prefer-await-to-then.md>
     PreferAwaitToThen,
     promise,
     style,

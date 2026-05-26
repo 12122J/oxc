@@ -148,6 +148,10 @@ declare_oxc_lint!(
     ///   },
     /// );
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-ending-with-an-expect.md>
     PreferEndingWithAnExpect,
     jest,
     style,

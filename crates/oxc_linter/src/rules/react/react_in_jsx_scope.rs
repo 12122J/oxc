@@ -52,6 +52,10 @@ declare_oxc_lint!(
     /// import React from "react";
     /// const a = <a />;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md>
     ReactInJsxScope,
     react,
     suspicious,

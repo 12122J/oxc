@@ -47,6 +47,10 @@ declare_oxc_lint!(
     /// var myModule = require('./my-module');
     /// var theme = require('./theme.css');
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-webpack-loader-syntax.md>
     NoWebpackLoaderSyntax,
     import,
     restriction,

@@ -45,6 +45,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <div> {'>'} </div>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md>
     NoUnescapedEntities,
     react,
     pedantic,

@@ -125,6 +125,10 @@ declare_oxc_lint!(
     /// // Boolean coercion (can be ignored with ignoreBooleanCoercion)
     /// const bool = Boolean(x || y);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-nullish-coalescing/>
     PreferNullishCoalescing(tsgolint),
     typescript,
     pedantic,

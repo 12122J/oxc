@@ -48,6 +48,10 @@ declare_oxc_lint!(
     /// const match = users.find(u => u.id === id);
     /// const match = users.find(fn);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-find.md>
     PreferArrayFind,
     unicorn,
     perf, // Encourages more efficient use of built-in methods

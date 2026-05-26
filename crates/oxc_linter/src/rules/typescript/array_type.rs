@@ -160,6 +160,10 @@ declare_oxc_lint!(
     /// const arr: number[] = new Array<number>();
     /// const readonlyArr: readonly number[] = [1, 2, 3];
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/array-type/>
     ArrayType,
     typescript,
     style,

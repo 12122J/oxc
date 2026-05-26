@@ -107,6 +107,10 @@ declare_oxc_lint!(
     /// // (import/ignore setting)
     /// import { SomeNonsenseThatDoesntExist } from 'react'
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/named.md>
     Named,
     import,
     nursery, // There are race conditions in the runtime which may cause the module to

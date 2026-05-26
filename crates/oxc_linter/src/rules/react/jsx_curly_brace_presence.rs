@@ -317,6 +317,10 @@ declare_oxc_lint!(
     /// You should turn this rule off if you are not concerned about maintaining
     /// consistency regarding the use of curly braces in JSX props and/or
     /// children as well as the use of unnecessary JSX expressions.
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md>
     JsxCurlyBracePresence,
     react,
     style,

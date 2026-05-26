@@ -65,6 +65,11 @@ describe('foo', () => {
     });
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-hooks.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-hooks.md>
 ";
 
 #[derive(Debug, Default, Clone, JsonSchema, Deserialize)]

@@ -193,6 +193,10 @@ declare_oxc_lint!(
     ///   const foo11 = 11;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/max-statements>
     MaxStatements,
     eslint,
     style,

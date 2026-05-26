@@ -37,6 +37,10 @@ declare_oxc_lint!(
     /// const foo = require('foo');
     /// let foo = require('foo');
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-var-requires/>
     NoVarRequires,
     typescript,
     restriction,

@@ -82,6 +82,10 @@ declare_oxc_lint!(
     /// // this is equivalent to Overloaded interface.
     /// type Intersection = ((data: string) => number) & ((id: number) => string);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-function-type/>
     PreferFunctionType,
     typescript,
     style,

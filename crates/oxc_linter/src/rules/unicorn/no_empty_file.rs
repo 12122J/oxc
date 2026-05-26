@@ -91,6 +91,10 @@ declare_oxc_lint!(
     ///   const x = 0;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-empty-file.md>
     NoEmptyFile,
     unicorn,
     correctness,

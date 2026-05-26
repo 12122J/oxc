@@ -50,6 +50,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// doSomethingThatMightThrow();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-useless-catch>
     NoUselessCatch,
     eslint,
     correctness,

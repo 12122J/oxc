@@ -38,6 +38,10 @@ declare_oxc_lint!(
     ///     await promise;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md>
     NoUnnecessaryAwait,
     unicorn,
     correctness,

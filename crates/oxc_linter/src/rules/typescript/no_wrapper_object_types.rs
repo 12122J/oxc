@@ -53,6 +53,10 @@ declare_oxc_lint!(
     ///
     /// let myObject: object = "Type 'string' is not assignable to type 'object'.";
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-wrapper-object-types/>
     NoWrapperObjectTypes,
     typescript,
     correctness,

@@ -68,6 +68,10 @@ declare_oxc_lint!(
     /// <div role="dialog"><input autoFocus /></div>
     /// <div popover><input autoFocus /></div>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-autofocus.md>
     NoAutofocus,
     jsx_a11y,
     correctness,

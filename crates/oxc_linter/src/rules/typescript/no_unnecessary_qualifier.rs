@@ -31,6 +31,10 @@ declare_oxc_lint!(
     ///   const value: B = 1;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unnecessary-qualifier/>
     NoUnnecessaryQualifier(tsgolint),
     typescript,
     style,

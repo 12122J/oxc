@@ -73,6 +73,10 @@ declare_oxc_lint!(
     ///   );
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-html-link-for-pages>
     NoHtmlLinkForPages,
     nextjs,
     correctness,

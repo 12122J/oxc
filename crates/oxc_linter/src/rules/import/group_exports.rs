@@ -57,6 +57,10 @@ declare_oxc_lint!(
     ///     second
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/group-exports.md>
     GroupExports,
     import,
     style,

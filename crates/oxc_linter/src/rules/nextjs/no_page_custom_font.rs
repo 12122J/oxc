@@ -72,6 +72,10 @@ declare_oxc_lint!(
     /// }
     /// export default Document;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-page-custom-font>
     NoPageCustomFont,
     nextjs,
     correctness,

@@ -120,6 +120,10 @@ declare_oxc_lint!(
     ///   constructor(private name: string) {}
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/parameter-properties/>
     ParameterProperties,
     typescript,
     style,

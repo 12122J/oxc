@@ -172,6 +172,10 @@ declare_oxc_lint!(
     /// var n = Number(foo);
     /// var s = String(foo);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-implicit-coercion>
     NoImplicitCoercion,
     eslint,
     style,

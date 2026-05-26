@@ -43,6 +43,10 @@ declare_oxc_lint!(
     ///  * @property {number} foo
     ///  */
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requirePropertyName.md>
     RequirePropertyName,
     jsdoc,
     correctness,

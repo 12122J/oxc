@@ -75,6 +75,10 @@ declare_oxc_lint!(
     ///   }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-return-this-type/>
     PreferReturnThisType(tsgolint),
     typescript,
     style,

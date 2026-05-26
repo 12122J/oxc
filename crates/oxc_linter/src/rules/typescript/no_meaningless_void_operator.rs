@@ -56,6 +56,10 @@ declare_oxc_lint!(
     ///
     /// processData(); // no void needed since we don't care about return value
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-meaningless-void-operator/>
     NoMeaninglessVoidOperator(tsgolint),
     typescript,
     correctness,

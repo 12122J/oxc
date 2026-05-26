@@ -79,6 +79,10 @@ declare_oxc_lint!(
     /// const foo = Number.parseInt('10', 2);
     /// const bar = Number.parseFloat('10.5');
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-number-properties.md>
     PreferNumberProperties,
     unicorn,
     restriction,

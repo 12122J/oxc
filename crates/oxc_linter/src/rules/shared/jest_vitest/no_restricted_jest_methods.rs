@@ -50,6 +50,11 @@ test('plays video', () => {
   // ...
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-restricted-jest-methods.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-restricted-jest-methods.md>
 ";
 
 #[derive(Debug, Default, Clone, JsonSchema, Deserialize)]

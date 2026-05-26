@@ -61,6 +61,10 @@ declare_oxc_lint!(
     /// let first = Atomics.load(sharedArray, 0);
     /// let segmenterFrom = Intl.Segmenter("fr", { granularity: "word" });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-obj-calls>
     NoObjCalls,
     eslint,
     correctness,

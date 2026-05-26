@@ -62,6 +62,10 @@ declare_oxc_lint!(
     ///   jest.fn(); // Use jest.fn() instead of jasmine.createSpy()
     /// });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-jasmine-globals.md>
     NoJasmineGlobals,
     jest,
     style,

@@ -71,6 +71,10 @@ declare_oxc_lint!(
     ///   console.log('found');
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-includes/>
     PreferIncludes(tsgolint),
     typescript,
     pedantic,

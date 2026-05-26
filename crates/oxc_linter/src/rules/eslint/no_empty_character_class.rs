@@ -41,6 +41,10 @@ declare_oxc_lint!(
     /// var foo = /^abc/;
     /// var foo2 = /^abc[123]/;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-empty-character-class>
     NoEmptyCharacterClass,
     eslint,
     correctness,

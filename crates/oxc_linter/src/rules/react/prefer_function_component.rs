@@ -83,6 +83,10 @@ declare_oxc_lint!(
     ///
     /// const Bar = ({ bar }) => <div>{bar}</div>;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prefer-function-component.md>
     PreferFunctionComponent,
     react,
     restriction,

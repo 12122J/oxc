@@ -79,6 +79,10 @@ declare_oxc_lint!(
     /// }
     /// const arrowFunc = () => myPromise.then(doSomething)
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/catch-or-return.md>
     CatchOrReturn,
     promise,
     restriction,

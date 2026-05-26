@@ -37,6 +37,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// const bar = [1,2,3].flatMap(i => [i]);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-flat-map.md>
     PreferArrayFlatMap,
     unicorn,
     perf,

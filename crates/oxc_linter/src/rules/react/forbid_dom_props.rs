@@ -138,6 +138,10 @@ declare_oxc_lint!(
     /// // [1, { "forbid": ["id"] }]
     /// <Hello id={{color: 'red'}} />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/forbid-dom-props.md>
     ForbidDomProps,
     react,
     restriction,

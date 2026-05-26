@@ -49,6 +49,10 @@ declare_oxc_lint!(
     ///   }
     /// });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-set-state.md>
     NoSetState,
     react,
     style,

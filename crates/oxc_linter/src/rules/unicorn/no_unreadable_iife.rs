@@ -47,6 +47,10 @@ declare_oxc_lint!(
     ///     return bar ? bar.baz : baz;
     /// })(getBar());
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-iife.md>
     NoUnreadableIife,
     unicorn,
     pedantic,

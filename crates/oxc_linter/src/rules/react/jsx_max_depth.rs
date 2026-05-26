@@ -82,6 +82,10 @@ declare_oxc_lint!(
     ///   </div>
     /// );
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-max-depth.md>
     JsxMaxDepth,
     react,
     style,

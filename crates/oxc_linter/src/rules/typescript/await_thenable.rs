@@ -46,6 +46,10 @@ declare_oxc_lint!(
     /// declare const getPromise: () => Promise<string>;
     /// await getPromise();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/await-thenable/>
     AwaitThenable(tsgolint),
     typescript,
     correctness,

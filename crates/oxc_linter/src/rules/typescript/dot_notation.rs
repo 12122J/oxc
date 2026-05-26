@@ -61,6 +61,10 @@ declare_oxc_lint!(
     /// obj[key];
     /// obj['not-an-identifier'];
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/dot-notation/>
     DotNotation(tsgolint),
     typescript,
     style,

@@ -76,6 +76,10 @@ declare_oxc_lint!(
     /// /* block comment on its own line */
     /// var b = 2;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-inline-comments>
     NoInlineComments,
     eslint,
     pedantic,

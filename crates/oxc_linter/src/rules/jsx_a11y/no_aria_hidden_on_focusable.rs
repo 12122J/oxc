@@ -42,6 +42,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <div aria-hidden="true" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-aria-hidden-on-focusable.md>
     NoAriaHiddenOnFocusable,
     jsx_a11y,
     correctness,

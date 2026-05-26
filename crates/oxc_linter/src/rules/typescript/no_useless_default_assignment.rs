@@ -25,6 +25,10 @@ declare_oxc_lint!(
     /// ```ts
     /// [1, 2, 3].map((a) => a + 1);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-useless-default-assignment/>
     NoUselessDefaultAssignment(tsgolint),
     typescript,
     correctness,

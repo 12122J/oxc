@@ -61,6 +61,10 @@ declare_oxc_lint!(
     ///     qux: "qux"
     /// };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-dupe-keys>
     NoDupeKeys,
     eslint,
     correctness,

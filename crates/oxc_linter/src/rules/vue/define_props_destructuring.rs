@@ -76,6 +76,10 @@ declare_oxc_lint!(
     ///   const { bar = 'default' } = defineProps<{ bar?: string }>()
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/define-props-destructuring.html>
     DefinePropsDestructuring,
     vue,
     style,

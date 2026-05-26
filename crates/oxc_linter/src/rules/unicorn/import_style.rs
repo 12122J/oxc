@@ -290,6 +290,10 @@ declare_oxc_lint!(
     /// ```js
     /// import {promisify} from "node:util";
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/import-style.md>
     ImportStyle,
     unicorn,
     restriction,

@@ -60,6 +60,10 @@ declare_oxc_lint!(
     /// expectTypeOf({}).toBeObject();
     /// expectTypeOf({}).toBeObject();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-to-be-object.md>
     PreferToBeObject,
     vitest,
     style,

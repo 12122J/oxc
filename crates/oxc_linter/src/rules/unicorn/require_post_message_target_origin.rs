@@ -47,6 +47,10 @@ declare_oxc_lint!(
     ///
     /// window.postMessage(message, '*');
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-post-message-target-origin.md>
     RequirePostMessageTargetOrigin,
     unicorn,
     suspicious,

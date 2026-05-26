@@ -88,6 +88,10 @@ declare_oxc_lint!(
     ///   static eval() { }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-eval>
     NoEval,
     eslint,
     correctness,

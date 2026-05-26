@@ -45,6 +45,10 @@ declare_oxc_lint!(
     ///   expect(1).toBe(1)
     /// })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-import-node-test.md>
     NoImportNodeTest,
     vitest,
     style,

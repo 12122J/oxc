@@ -81,6 +81,10 @@ declare_oxc_lint!(
     /// const foo = array.at(-5);
     /// const foo = string.at(-1);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-at.md>
     PreferAt,
     unicorn,
     pedantic,

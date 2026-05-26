@@ -65,6 +65,10 @@ declare_oxc_lint!(
     /// function combine(a: number, b: number = 2, c: number = 3) {}
     /// function combine(a: number, b?: number, c: number = 3) {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/default-param-last>
     DefaultParamLast,
     eslint,
     style,

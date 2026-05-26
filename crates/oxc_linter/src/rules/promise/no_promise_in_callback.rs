@@ -57,6 +57,10 @@ declare_oxc_lint!(
     ///   .then(console.log)
     ///   .catch(console.error)
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-promise-in-callback.md>
     NoPromiseInCallback,
     promise,
     suspicious,

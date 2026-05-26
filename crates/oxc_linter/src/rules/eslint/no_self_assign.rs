@@ -98,6 +98,10 @@ declare_oxc_lint!(
     /// foo &= foo;
     /// foo |= foo;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-self-assign>
     NoSelfAssign,
     eslint,
     correctness,

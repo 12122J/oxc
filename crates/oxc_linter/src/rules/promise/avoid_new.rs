@@ -42,6 +42,10 @@ declare_oxc_lint!(
     /// }
     /// const bar = await Promise.all([baz(), bang()]);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/avoid-new.md>
     AvoidNew,
     promise,
     style,

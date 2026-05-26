@@ -38,6 +38,10 @@ declare_oxc_lint!(
     /// ```js
     /// import { createApp, ref, Component } from 'vue'
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/prefer-import-from-vue.html>
     PreferImportFromVue,
     vue,
     correctness,

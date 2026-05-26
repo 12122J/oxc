@@ -107,6 +107,10 @@ declare_oxc_lint!(
     ///   return <StableComponent />;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unstable-nested-components.md>
     NoUnstableNestedComponents,
     react,
     suspicious,

@@ -65,6 +65,10 @@ declare_oxc_lint!(
     ///     return doSomething();
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-useless-return>
     NoUselessReturn,
     eslint,
     pedantic,

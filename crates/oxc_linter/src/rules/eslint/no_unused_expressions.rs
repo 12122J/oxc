@@ -60,6 +60,10 @@ declare_oxc_lint!(
     /// ```ts
     /// const foo = new Set<number>();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-unused-expressions>
     NoUnusedExpressions,
     eslint,
     correctness,

@@ -271,6 +271,10 @@ declare_oxc_lint!(
     /// <div className='foo' />
     /// <div style={{color: 'red'}} />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/forbid-component-props.md>
     ForbidComponentProps,
     react,
     restriction,

@@ -52,6 +52,10 @@ declare_oxc_lint!(
     /// ### Functions/Classes
     /// Note that exported function/class declaration identifiers may be reassigned,
     /// but are not flagged by this rule at this time. They may be in the future.
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-mutable-exports.md>
     NoMutableExports,
     import,
     style,

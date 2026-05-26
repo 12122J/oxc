@@ -52,6 +52,10 @@ declare_oxc_lint!(
     ///   constructor(public name: unknown) {}
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unnecessary-parameter-property-assignment/>
     NoUnnecessaryParameterPropertyAssignment,
     typescript,
     correctness,

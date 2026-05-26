@@ -45,6 +45,10 @@ declare_oxc_lint!(
     /// export { foo as foo1 }; // Renamed export to avoid conflict
     /// export * from "./export-all"; // No conflict if export-all.js also exports foo
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/export.md>
     Export,
     import,
     nursery,

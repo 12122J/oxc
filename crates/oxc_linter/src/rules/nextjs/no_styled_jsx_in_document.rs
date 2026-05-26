@@ -72,6 +72,10 @@ declare_oxc_lint!(
     ///   }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-styled-jsx-in-document>
     NoStyledJsxInDocument,
     nextjs,
     correctness,

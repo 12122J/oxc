@@ -90,6 +90,10 @@ declare_oxc_lint!(
     /// <a>read this tutorial</a>
     /// <a aria-label="oxc linter documentation">click here</a>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/anchor-ambiguous-text.md>
     AnchorAmbiguousText,
     jsx_a11y,
     restriction,

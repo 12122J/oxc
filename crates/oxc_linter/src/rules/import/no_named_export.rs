@@ -42,6 +42,10 @@ declare_oxc_lint!(
     /// const foo = 'foo';
     /// export { foo as default }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-export.md>
     NoNamedExport,
     import,
     style,

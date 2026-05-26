@@ -82,6 +82,10 @@ declare_oxc_lint!(
     ///   }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-class-assign>
     NoClassAssign,
     eslint,
     correctness,

@@ -55,6 +55,10 @@ declare_oxc_lint!(
     ///   return null;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unsafe-return/>
     NoUnsafeReturn(tsgolint),
     typescript,
     pedantic,

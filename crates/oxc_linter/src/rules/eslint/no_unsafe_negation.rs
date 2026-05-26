@@ -66,6 +66,10 @@ declare_oxc_lint!(
     /// if (!(obj instanceof Ctor)) {}
     /// ```
     /// <!-- prettier-ignore-end -->
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-unsafe-negation>
     NoUnsafeNegation,
     eslint,
     correctness,

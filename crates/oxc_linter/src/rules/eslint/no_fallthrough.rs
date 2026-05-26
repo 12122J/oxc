@@ -244,6 +244,10 @@ declare_oxc_lint!(
     ///
     /// Note that the last case statement in these examples does not cause a
     /// warning because there is nothing to fall through into.
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-fallthrough>
     NoFallthrough,
     eslint,
     pedantic, // Fall through code are still incorrect.

@@ -104,6 +104,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// const Hello = <Hello personal={true} />;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md>
     JsxBooleanValue,
     react,
     style,

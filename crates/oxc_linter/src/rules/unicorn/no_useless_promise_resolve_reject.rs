@@ -66,6 +66,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// async () => bar;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-promise-resolve-reject.md>
     NoUselessPromiseResolveReject,
     unicorn,
     pedantic,

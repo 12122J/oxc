@@ -129,6 +129,10 @@ declare_oxc_lint!(
     /// defineEmits()
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/valid-define-emits.html>
     ValidDefineEmits,
     vue,
     correctness,

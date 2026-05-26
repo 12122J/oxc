@@ -36,6 +36,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// function bar() { return /[=]foo/; }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-div-regex>
     NoDivRegex,
     eslint,
     restriction,

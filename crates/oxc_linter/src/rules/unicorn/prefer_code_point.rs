@@ -39,6 +39,10 @@ declare_oxc_lint!(
     /// '🦄'.codePointAt(0);
     /// String.fromCodePoint(0x1f984);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-code-point.md>
     PreferCodePoint,
     unicorn,
     pedantic,

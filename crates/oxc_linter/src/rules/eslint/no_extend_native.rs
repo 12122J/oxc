@@ -73,6 +73,10 @@ declare_oxc_lint!(
     /// x.prototype.p = 0
     /// Object.defineProperty(x.prototype, 'p', {value: 0})
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-extend-native>
     NoExtendNative,
     eslint,
     suspicious,

@@ -48,6 +48,10 @@ declare_oxc_lint!(
     /// // never in intersections is meaningful
     /// type T5 = string & never;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-redundant-type-constituents/>
     NoRedundantTypeConstituents(tsgolint),
     typescript,
     correctness,

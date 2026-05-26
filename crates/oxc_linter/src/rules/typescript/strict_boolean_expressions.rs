@@ -115,6 +115,10 @@ declare_oxc_lint!(
     ///   console.log('boolean');
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/strict-boolean-expressions/>
     StrictBooleanExpressions(tsgolint),
     typescript,
     pedantic,

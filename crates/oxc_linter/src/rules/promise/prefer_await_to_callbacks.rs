@@ -52,6 +52,10 @@ declare_oxc_lint!(
     /// }
     /// eventEmitter.on('error', err => {})
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/prefer-await-to-callbacks.md>
     PreferAwaitToCallbacks,
     promise,
     style,

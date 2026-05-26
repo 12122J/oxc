@@ -44,6 +44,10 @@ declare_oxc_lint!(
     /// <div>Children</div>
     /// <div dangerouslySetInnerHTML={{ __html: "HTML" }} />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-danger-with-children.md>
     NoDangerWithChildren,
     react,
     correctness,

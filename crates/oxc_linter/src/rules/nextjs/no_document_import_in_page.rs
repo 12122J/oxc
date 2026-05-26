@@ -52,6 +52,10 @@ declare_oxc_lint!(
     ///
     /// export default MyDocument
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-document-import-in-page>
     NoDocumentImportInPage,
     nextjs,
     correctness,

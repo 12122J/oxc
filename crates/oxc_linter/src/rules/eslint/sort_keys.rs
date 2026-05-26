@@ -89,6 +89,10 @@ declare_oxc_lint!(
     ///   c: 1,
     /// };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/sort-keys>
     SortKeys,
     eslint,
     style,

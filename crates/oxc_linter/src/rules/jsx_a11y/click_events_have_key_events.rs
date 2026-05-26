@@ -44,6 +44,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <div onClick={() => void 0} onKeyDown={() => void 0} />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/click-events-have-key-events.md>
     ClickEventsHaveKeyEvents,
     jsx_a11y,
     correctness,

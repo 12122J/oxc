@@ -62,6 +62,10 @@ declare_oxc_lint!(
     ///     console.log(arguments); // This is a local variable.
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/prefer-rest-params>
     PreferRestParams,
     eslint,
     style,

@@ -84,6 +84,10 @@ declare_oxc_lint!(
     ///     foo5();
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/max-nested-callbacks>
     MaxNestedCallbacks,
     eslint,
     pedantic,

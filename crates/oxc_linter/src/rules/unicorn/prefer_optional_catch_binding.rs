@@ -37,6 +37,10 @@ declare_oxc_lint!(
     ///  // ...
     /// } catch { }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-optional-catch-binding.md>
     PreferOptionalCatchBinding,
     unicorn,
     style,

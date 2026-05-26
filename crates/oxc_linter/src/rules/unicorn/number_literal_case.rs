@@ -76,6 +76,10 @@ declare_oxc_lint!(
     /// const foo = 2e+5;
     /// ```
     /// <!-- prettier-ignore-end -->
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/number-literal-case.md>
     NumberLiteralCase,
     unicorn,
     style,

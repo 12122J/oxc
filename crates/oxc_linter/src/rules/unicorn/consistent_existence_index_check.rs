@@ -64,6 +64,10 @@ declare_oxc_lint!(
     /// const index = foo.indexOf('bar');
     /// if (index !== -1) {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-existence-index-check.md>
     ConsistentExistenceIndexCheck,
     unicorn,
     style,

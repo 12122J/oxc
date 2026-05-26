@@ -41,6 +41,10 @@ declare_oxc_lint!(
     /// <TestComponent />
     /// <testComponent />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-namespace.md>
     NoNamespace,
     react,
     suspicious,

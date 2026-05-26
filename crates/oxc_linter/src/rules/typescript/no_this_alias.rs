@@ -93,6 +93,10 @@ declare_oxc_lint!(
     ///   this.doWork();
     /// });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-this-alias/>
     NoThisAlias,
     typescript,
     correctness,

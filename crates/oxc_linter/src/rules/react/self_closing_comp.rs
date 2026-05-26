@@ -68,6 +68,10 @@ declare_oxc_lint!(
     /// const welem = <Component linter="oxlint" > </Component>
     /// const dom_elem = <div id="oxlint" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md>
     SelfClosingComp,
     react,
     style,

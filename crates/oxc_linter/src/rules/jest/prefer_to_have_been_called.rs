@@ -44,6 +44,10 @@ declare_oxc_lint!(
     /// expect(mock).toHaveBeenCalled();
     /// expect(mock).toHaveBeenCalledTimes(1);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-have-been-called.md>
     PreferToHaveBeenCalled,
     jest,
     style,

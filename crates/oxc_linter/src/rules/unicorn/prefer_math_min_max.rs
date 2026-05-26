@@ -53,6 +53,10 @@ declare_oxc_lint!(
     /// Math.min(height, 50);
     /// Math.max(height, 50);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-math-min-max.md>
     PreferMathMinMax,
     unicorn,
     pedantic,

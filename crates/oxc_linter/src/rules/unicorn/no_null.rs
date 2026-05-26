@@ -55,6 +55,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// let foo
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-null.md>
     NoNull,
     unicorn,
     style,

@@ -90,6 +90,10 @@ declare_oxc_lint!(
     /// const a = new Foo<string>();
     /// const a: Foo<string> = new Foo(); // prefer type annotation
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/consistent-generic-constructors/>
     ConsistentGenericConstructors,
     typescript,
     style,

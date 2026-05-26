@@ -98,6 +98,10 @@ declare_oxc_lint!(
     /// ### Why is this bad?
     ///
     /// Makes code using fragments more consistent one way or the other.
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md>
     JsxFragments,
     react,
     style,

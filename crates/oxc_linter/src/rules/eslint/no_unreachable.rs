@@ -68,6 +68,10 @@ declare_oxc_lint!(
     ///     return 2;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-unreachable>
     NoUnreachable,
     eslint,
     correctness,

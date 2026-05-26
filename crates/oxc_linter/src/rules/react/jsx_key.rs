@@ -105,6 +105,10 @@ declare_oxc_lint!(
     /// NOTE: This rule's option defaults differ from the defaults in the original ESLint plugin. It is recommended to keep
     /// all options set to `true` for correctness reasons, but you may want to set them back to `false` to get behavior
     /// parity when migrating from ESLint.
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-key.md>
     JsxKey,
     react,
     correctness,

@@ -103,6 +103,10 @@ declare_oxc_lint!(
     ///     quuux();
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-dupe-else-if>
     NoDupeElseIf,
     eslint,
     correctness,

@@ -48,6 +48,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <input aria-labelledby="address_label" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/aria-props.md>
     AriaProps,
     jsx_a11y,
     correctness,

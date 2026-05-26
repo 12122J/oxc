@@ -120,6 +120,10 @@ declare_oxc_lint!(
     /// <div role="button" onClick={() => {}} />
     /// <div onClick={() => {}} role="presentation" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-noninteractive-element-interactions.md>
     NoNoninteractiveElementInteractions,
     jsx_a11y,
     correctness,

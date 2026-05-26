@@ -61,6 +61,10 @@ declare_oxc_lint!(
     /// ```js
     /// const reversed = [...array].toReversed();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-reverse.md>
     NoArrayReverse,
     unicorn,
     suspicious,

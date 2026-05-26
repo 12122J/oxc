@@ -197,6 +197,10 @@ declare_oxc_lint!(
     ///   }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/newline-after-import.md>
     NewlineAfterImport,
     import,
     style,

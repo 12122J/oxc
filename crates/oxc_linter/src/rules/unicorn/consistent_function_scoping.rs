@@ -152,6 +152,10 @@ declare_oxc_lint!(
     ///   }
     /// })();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-function-scoping.md>
     ConsistentFunctionScoping,
     unicorn,
     suspicious,

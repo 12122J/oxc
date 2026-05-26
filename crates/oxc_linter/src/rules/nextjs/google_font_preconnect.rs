@@ -42,6 +42,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// <link rel="preconnect" href="https://fonts.gstatic.com" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/google-font-preconnect>
     GoogleFontPreconnect,
     nextjs,
     correctness,

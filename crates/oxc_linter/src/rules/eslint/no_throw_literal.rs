@@ -68,6 +68,10 @@ declare_oxc_lint!(
     ///     throw e;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-throw-literal>
     NoThrowLiteral,
     eslint,
     pedantic,

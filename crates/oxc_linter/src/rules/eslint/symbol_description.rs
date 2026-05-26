@@ -49,6 +49,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// var foo = Symbol("some description");
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/symbol-description>
     SymbolDescription,
     eslint,
     pedantic,

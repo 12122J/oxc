@@ -53,6 +53,10 @@ declare_oxc_lint!(
     ///
     /// new Bar(this).method();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md>
     NoThisAssignment,
     unicorn,
     pedantic,

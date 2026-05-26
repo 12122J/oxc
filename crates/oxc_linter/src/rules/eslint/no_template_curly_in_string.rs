@@ -44,6 +44,10 @@ declare_oxc_lint!(
     /// `Time: ${12 * 60 * 60 * 1000}`;
     /// templateFunction`Hello ${name}`;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-template-curly-in-string>
     NoTemplateCurlyInString,
     eslint,
     style,

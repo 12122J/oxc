@@ -37,6 +37,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// const x = Promise.resolve(value);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-new-statics.md>
     NoNewStatics,
     promise,
     correctness,

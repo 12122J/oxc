@@ -77,6 +77,10 @@ declare_oxc_lint!(
     ///  return [color, setColor];
     ///}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/hook-use-state.md>
     HookUseState,
     react,
     style,

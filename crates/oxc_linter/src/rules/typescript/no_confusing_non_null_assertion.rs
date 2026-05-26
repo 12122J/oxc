@@ -40,6 +40,10 @@ declare_oxc_lint!(
     /// a !== b;
     /// a === b;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-confusing-non-null-assertion/>
     NoConfusingNonNullAssertion,
     typescript,
     suspicious,

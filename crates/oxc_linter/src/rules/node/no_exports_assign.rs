@@ -72,6 +72,10 @@ declare_oxc_lint!(
     /// module.exports = exports = {}
     /// exports = module.exports = {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-exports-assign.md>
     NoExportsAssign,
     node,
     style,

@@ -37,6 +37,11 @@ xit('foo'); // invalid
 xtest('foo'); // invalid
 xdescribe('foo'); // invalid
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-test-prefixes.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-test-prefixes.md>
 ";
 
 struct ParsedNoTestPrefixesCall {

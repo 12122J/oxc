@@ -67,6 +67,10 @@ declare_oxc_lint!(
     /// ```js
     /// new URL("./foo", base);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/relative-url-style.md>
     RelativeUrlStyle,
     unicorn,
     style,

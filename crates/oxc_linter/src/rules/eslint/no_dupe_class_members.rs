@@ -54,6 +54,10 @@ declare_oxc_lint!(
     /// let a = new A();
     /// a.foo();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-dupe-class-members>
     NoDupeClassMembers,
     eslint,
     correctness,

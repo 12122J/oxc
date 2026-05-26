@@ -52,6 +52,10 @@ declare_oxc_lint!(
     /// setInterval(doWork, 1000);
     /// window.setTimeout(doWork, 100);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-implied-eval>
     NoImpliedEval,
     eslint,
     suspicious,

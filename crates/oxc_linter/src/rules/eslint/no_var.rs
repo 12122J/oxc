@@ -46,6 +46,10 @@ declare_oxc_lint!(
     /// let x = "y";
     /// const CONFIG = {};
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-var>
     NoVar,
     eslint,
     restriction,

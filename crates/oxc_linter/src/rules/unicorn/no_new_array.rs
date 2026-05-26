@@ -35,6 +35,10 @@ declare_oxc_lint!(
     /// const array = Array.from({ length: 42 });
     /// const array = [42];
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-new-array.md>
     NoNewArray,
     unicorn,
     correctness,

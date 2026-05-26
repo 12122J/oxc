@@ -42,6 +42,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// foo.slice(1)
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-length-as-slice-end.md>
     NoLengthAsSliceEnd,
     unicorn,
     restriction,

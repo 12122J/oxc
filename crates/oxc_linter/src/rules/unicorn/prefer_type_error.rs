@@ -44,6 +44,10 @@ declare_oxc_lint!(
     ///     throw new TypeError('Expected foo to be an array');
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-type-error.md>
     PreferTypeError,
     unicorn,
     pedantic,

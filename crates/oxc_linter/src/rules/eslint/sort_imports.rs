@@ -87,6 +87,10 @@ declare_oxc_lint!(
     /// import d from 'foo.js';
     /// import e from 'bar.js';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/sort-imports>
     SortImports,
     eslint,
     style,

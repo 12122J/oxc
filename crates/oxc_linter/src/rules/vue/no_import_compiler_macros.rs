@@ -58,6 +58,10 @@ declare_oxc_lint!(
     /// import { ref } from 'vue'
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/no-import-compiler-macros.html>
     NoImportCompilerMacros,
     vue,
     restriction,

@@ -92,6 +92,10 @@ declare_oxc_lint!(
     ///
     /// vi.stubEnv('NODE_ENV', 'production')
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/consistent-vitest-vi.md>
     ConsistentVitestVi,
     vitest,
     style,

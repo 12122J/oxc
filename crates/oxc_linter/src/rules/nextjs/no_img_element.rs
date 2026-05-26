@@ -60,6 +60,10 @@ declare_oxc_lint!(
     ///     );
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-img-element>
     NoImgElement,
     nextjs,
     correctness,

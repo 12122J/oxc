@@ -56,6 +56,10 @@ declare_oxc_lint!(
     /// jest.mocked(Obj.foo).mockReturnValue(1);
     /// jest.mocked([].foo).mockReturnValue(1);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-jest-mocked.md>
     PreferJestMocked,
     jest,
     style,

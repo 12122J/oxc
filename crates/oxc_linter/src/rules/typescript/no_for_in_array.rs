@@ -54,6 +54,10 @@ declare_oxc_lint!(
     ///   console.log(key, obj[key]);
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-for-in-array/>
     NoForInArray(tsgolint),
     typescript,
     correctness,

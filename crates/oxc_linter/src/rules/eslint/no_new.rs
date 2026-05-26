@@ -40,6 +40,10 @@ declare_oxc_lint!(
     ///
     /// (() => new Date())
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-new>
     NoNew,
     eslint,
     suspicious,

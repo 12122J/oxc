@@ -46,6 +46,10 @@ declare_oxc_lint!(
     ///     Promise.race([promise, anotherPromise]);
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-in-promise-methods.md>
     NoAwaitInPromiseMethods,
     unicorn,
     correctness,

@@ -70,6 +70,10 @@ declare_oxc_lint!(
     /// ```js
     /// const clone = structuredClone(foo);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-structured-clone.md>
     PreferStructuredClone,
     unicorn,
     style,

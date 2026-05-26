@@ -52,6 +52,10 @@ declare_oxc_lint!(
     /// React.createElement("div", {}, 'Children')
     /// React.createElement("div", 'Child 1', 'Child 2')
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md>
     NoChildrenProp,
     react,
     correctness,

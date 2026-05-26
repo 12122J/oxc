@@ -121,6 +121,10 @@ declare_oxc_lint!(
     ///
     /// An array of characters to ignore at the start of comments when `location` is `"start"`.
     /// Useful for ignoring common comment decorations like `*` in JSDoc-style comments.
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-warning-comments>
     NoWarningComments,
     eslint,
     pedantic,

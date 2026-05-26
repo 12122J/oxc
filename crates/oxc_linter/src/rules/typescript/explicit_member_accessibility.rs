@@ -194,6 +194,10 @@ declare_oxc_lint!(
     ///   private hasFleas: boolean;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/explicit-member-accessibility/>
     ExplicitMemberAccessibility,
     typescript,
     restriction,

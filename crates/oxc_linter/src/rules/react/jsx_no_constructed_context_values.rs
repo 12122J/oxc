@@ -73,6 +73,10 @@ declare_oxc_lint!(
     /// const MyContext = createContext();
     /// const Component = () => <MyContext.Provider value="Some string" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-constructed-context-values.md>
     JsxNoConstructedContextValues,
     react,
     perf,

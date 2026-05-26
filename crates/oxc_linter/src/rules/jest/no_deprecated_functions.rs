@@ -95,6 +95,10 @@ declare_oxc_lint!(
     /// jest.resetModuleRegistry // since Jest 15
     /// jest.addMatchers // since Jest 17
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-deprecated-functions.md>
     NoDeprecatedFunctions,
     jest,
     style,

@@ -75,6 +75,10 @@ declare_oxc_lint!(
     /// var foo = getUnknownValue();
     /// Promise.reject(foo);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/prefer-promise-reject-errors>
     PreferPromiseRejectErrors,
     eslint,
     style,

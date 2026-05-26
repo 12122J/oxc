@@ -64,6 +64,10 @@ declare_oxc_lint!(
     ///
     /// export default Index
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-head-element>
     NoHeadElement,
     nextjs,
     correctness,

@@ -73,6 +73,10 @@ declare_oxc_lint!(
     /// /(?<name>a)\k<name>/;        // named group used properly
     /// /(?:a|(b))\1/;               // backreference only used when group matches
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-useless-backreference>
     NoUselessBackreference,
     eslint,
     correctness,

@@ -110,6 +110,10 @@ declare_oxc_lint!(
     /// declare module 'foo' {}
     /// // anything inside a d.ts file
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-namespace/>
     NoNamespace,
     typescript,
     restriction,

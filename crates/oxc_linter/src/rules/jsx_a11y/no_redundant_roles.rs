@@ -56,6 +56,10 @@ declare_oxc_lint!(
     /// <button></button>
     /// <main></main>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-redundant-roles.md>
     NoRedundantRoles,
     jsx_a11y,
     correctness,

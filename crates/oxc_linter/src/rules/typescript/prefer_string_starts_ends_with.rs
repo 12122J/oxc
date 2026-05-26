@@ -47,6 +47,10 @@ declare_oxc_lint!(
     /// value.startsWith('foo');
     /// value.endsWith('bar');
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-string-starts-ends-with/>
     PreferStringStartsEndsWith(tsgolint),
     typescript,
     style,

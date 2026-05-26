@@ -72,6 +72,10 @@ declare_oxc_lint!(
     ///   // ...
     /// });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-done-callback.md>
     NoDoneCallback,
     jest,
     // TODO: add suggestion (see jest-community/eslint-plugin-jest#586)

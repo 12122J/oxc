@@ -36,6 +36,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// "foo".slice(1, 2)
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-slice.md>
     PreferStringSlice,
     unicorn,
     pedantic,

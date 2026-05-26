@@ -45,6 +45,10 @@ declare_oxc_lint!(
     /// it([])('foo', () => {})
     /// test([])('foo', () => {})
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/warn-todo.md>
     WarnTodo,
     vitest,
     correctness,

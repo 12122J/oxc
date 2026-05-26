@@ -72,6 +72,10 @@ declare_oxc_lint!(
     ///   qux.prop = 2; // when `props` option is enabled
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-param-reassign>
     NoParamReassign,
     eslint,
     restriction,

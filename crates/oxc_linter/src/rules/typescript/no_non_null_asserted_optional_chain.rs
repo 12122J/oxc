@@ -54,6 +54,10 @@ declare_oxc_lint!(
     /// foo?.bar;
     /// foo.bar!;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-non-null-asserted-optional-chain/>
     NoNonNullAssertedOptionalChain,
     typescript,
     correctness,

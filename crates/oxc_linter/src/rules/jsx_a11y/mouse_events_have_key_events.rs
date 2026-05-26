@@ -70,6 +70,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <div onMouseOver={() => void 0} onFocus={() => void 0} />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/mouse-events-have-key-events.md>
     MouseEventsHaveKeyEvents,
     jsx_a11y,
     correctness,

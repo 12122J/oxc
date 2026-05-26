@@ -26,6 +26,10 @@ declare_oxc_lint!(
     /// ```ts
     /// const value = 'asdf';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unnecessary-type-conversion/>
     NoUnnecessaryTypeConversion(tsgolint),
     typescript,
     suspicious,

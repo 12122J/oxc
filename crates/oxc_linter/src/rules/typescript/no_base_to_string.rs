@@ -75,6 +75,10 @@ declare_oxc_lint!(
     /// }
     /// new CustomToString().toString();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-base-to-string/>
     NoBaseToString(tsgolint),
     typescript,
     correctness,

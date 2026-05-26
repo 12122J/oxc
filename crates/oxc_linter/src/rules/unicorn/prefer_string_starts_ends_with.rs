@@ -48,6 +48,10 @@ declare_oxc_lint!(
     /// const foo = "hello";
     /// foo.startsWith("abc");
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-starts-ends-with.md>
     PreferStringStartsEndsWith,
     unicorn,
     correctness,

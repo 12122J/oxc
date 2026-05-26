@@ -53,6 +53,10 @@ declare_oxc_lint!(
     ///   expect(mock).toHaveBeenCalledTimes(1)
     /// })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-called-times.md>
     PreferCalledTimes,
     vitest,
     style,

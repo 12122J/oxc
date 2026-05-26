@@ -80,6 +80,10 @@ declare_oxc_lint!(
     /// const styles = { height: '100px' };
     /// React.createElement("div", { style: styles });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md>
     StylePropObject,
     react,
     suspicious,

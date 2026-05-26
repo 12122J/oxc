@@ -108,6 +108,10 @@ declare_oxc_lint!(
     /// const bar = { onClick(_bar) {} };
     /// const baz = (_bar) => {};
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-underscore-dangle>
     NoUnderscoreDangle,
     eslint,
     suspicious,

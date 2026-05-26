@@ -129,6 +129,10 @@ declare_oxc_lint!(
     /// ```
     ///
     /// In this corrected version, `dep-b.js` no longer imports `dep-a.js`, breaking the cycle.
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md>
     NoCycle,
     import,
     restriction,

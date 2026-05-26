@@ -50,6 +50,10 @@ declare_oxc_lint!(
     ///
     /// // > 3
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-unsafe-finally>
     NoUnsafeFinally,
     eslint,
     correctness,

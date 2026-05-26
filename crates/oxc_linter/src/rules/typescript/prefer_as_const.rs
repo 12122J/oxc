@@ -53,6 +53,10 @@ declare_oxc_lint!(
     /// let bar = 'bar' as string;
     /// let foo = { bar: 'baz' };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-as-const/>
     PreferAsConst,
     typescript,
     correctness,

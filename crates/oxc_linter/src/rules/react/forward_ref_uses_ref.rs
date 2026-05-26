@@ -58,6 +58,10 @@ declare_oxc_lint!(
     ///   return <div />;
     /// };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/forward-ref-uses-ref.md>
     ForwardRefUsesRef,
     react,
     correctness,

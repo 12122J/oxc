@@ -60,6 +60,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// Promise.resolve(1)
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/valid-params.md>
     ValidParams,
     promise,
     correctness,

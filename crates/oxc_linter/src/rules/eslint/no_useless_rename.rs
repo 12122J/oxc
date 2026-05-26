@@ -72,6 +72,10 @@ declare_oxc_lint!(
     /// const { bar: renamed } = obj;
     /// export { baz };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-useless-rename>
     NoUselessRename,
     eslint,
     correctness,

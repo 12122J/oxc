@@ -131,6 +131,10 @@ declare_oxc_lint!(
     ///     }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/explicit-function-return-type/>
     ExplicitFunctionReturnType,
     typescript,
     restriction,

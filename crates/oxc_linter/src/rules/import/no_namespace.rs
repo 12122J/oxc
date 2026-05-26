@@ -75,6 +75,10 @@ declare_oxc_lint!(
     /// import user from 'user-lib';
     /// import defaultExport, { isUser } from './user';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-namespace.md>
     NoNamespace,
     import,
     style,

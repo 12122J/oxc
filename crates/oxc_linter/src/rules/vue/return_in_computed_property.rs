@@ -77,6 +77,10 @@ declare_oxc_lint!(
     /// }
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/return-in-computed-property.html>
     ReturnInComputedProperty,
     vue,
     correctness,

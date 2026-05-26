@@ -189,6 +189,10 @@ declare_oxc_lint!(
     /// - `SomeFileName.js`
     /// - `SomeFileName.Test.js`
     /// - `SomeFileName.TestUtils.js`
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/filename-case.md>
     FilenameCase,
     unicorn,
     style,

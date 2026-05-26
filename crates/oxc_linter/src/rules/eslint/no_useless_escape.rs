@@ -88,6 +88,10 @@ declare_oxc_lint!(
     /// /[\]]/;
     /// /[a-z-]/;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-useless-escape>
     NoUselessEscape,
     eslint,
     correctness,

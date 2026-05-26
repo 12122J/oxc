@@ -46,6 +46,11 @@ expect(roughArgsFunction).toBeCalledWith(expect.anything(), expect.any(Date));
 expect(anyArgsFunction).toBeCalledTimes(1);
 expect(uncalledFunction).not.toBeCalled();
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-called-with.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-called-with.md>
 ";
 
 pub fn run_on_jest_node<'a, 'c>(

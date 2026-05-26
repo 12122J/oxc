@@ -149,6 +149,10 @@ declare_oxc_lint!(
     /// /* Capitalized block comment */
     /// // 123 - comments starting with non-letters are ignored
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/capitalized-comments>
     CapitalizedComments,
     eslint,
     style,

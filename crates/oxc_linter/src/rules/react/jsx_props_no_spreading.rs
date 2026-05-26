@@ -84,6 +84,10 @@ declare_oxc_lint!(
     /// <MyCustomComponent one_prop={one_prop} two_prop={two_prop} />
     /// <img src={src} alt={alt} />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md>
     JsxPropsNoSpreading,
     react,
     style,

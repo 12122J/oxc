@@ -40,6 +40,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// a ** b
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/prefer-exponentiation-operator>
     PreferExponentiationOperator,
     eslint,
     style,

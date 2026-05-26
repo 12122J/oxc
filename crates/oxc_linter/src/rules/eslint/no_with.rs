@@ -37,6 +37,10 @@ declare_oxc_lint!(
     ///     r = Math.sqrt(x * x + y * y); // is r a member of point?
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-with>
     NoWith,
     eslint,
     correctness,

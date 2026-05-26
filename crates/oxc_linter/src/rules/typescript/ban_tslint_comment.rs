@@ -34,6 +34,10 @@ declare_oxc_lint!(
     /// ```ts
     /// someCode();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/ban-tslint-comment/>
     BanTslintComment,
     typescript,
     style,

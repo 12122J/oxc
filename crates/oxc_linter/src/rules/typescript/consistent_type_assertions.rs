@@ -253,6 +253,10 @@ declare_oxc_lint!(
     /// const obj: Foo = { a: 1 };
     /// const obj = { a: 1 } satisfies Foo;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/consistent-type-assertions/>
     ConsistentTypeAssertions,
     typescript,
     style,

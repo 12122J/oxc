@@ -56,6 +56,10 @@ declare_oxc_lint!(
     /// <div aria-checked={false} />
     /// <div aria-invalid="grammar" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/aria-proptypes.md>
     AriaProptypes,
     jsx_a11y,
     correctness,

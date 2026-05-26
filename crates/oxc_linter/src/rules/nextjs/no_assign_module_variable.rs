@@ -55,6 +55,10 @@ declare_oxc_lint!(
     /// // Access actual module object (when available)
     /// console.log(module.exports);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-assign-module-variable>
     NoAssignModuleVariable,
     nextjs,
     correctness,

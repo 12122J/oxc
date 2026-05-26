@@ -50,6 +50,10 @@ declare_oxc_lint!(
     ///   let x = 1; // Used to create a valid block scope.
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-lone-blocks>
     NoLoneBlocks,
     eslint,
     style,

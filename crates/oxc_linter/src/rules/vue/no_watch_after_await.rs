@@ -65,6 +65,10 @@ declare_oxc_lint!(
     /// }
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/no-watch-after-await.html>
     NoWatchAfterAwait,
     vue,
     correctness,

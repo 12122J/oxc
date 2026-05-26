@@ -71,6 +71,10 @@ declare_oxc_lint!(
     /// import type { A, B } from 'mod';
     /// import type { A as AA, B as BB } from 'mod';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-import-type-side-effects/>
     NoImportTypeSideEffects,
     typescript,
     restriction,

@@ -37,6 +37,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// const text = foo.textContent;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-text-content.md>
     PreferDomNodeTextContent,
     unicorn,
     style,

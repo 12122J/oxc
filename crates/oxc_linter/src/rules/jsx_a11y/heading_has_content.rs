@@ -65,6 +65,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <h1>Foo</h1>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/heading-has-content.md>
     HeadingHasContent,
     jsx_a11y,
     correctness,

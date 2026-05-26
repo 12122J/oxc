@@ -148,6 +148,10 @@ declare_oxc_lint!(
     /// /* id-match: ["error", "^[^_]+$", { "ignoreDestructuring": true }] */
     /// const { first_name } = user;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/id-match>
     IdMatch,
     eslint,
     style,

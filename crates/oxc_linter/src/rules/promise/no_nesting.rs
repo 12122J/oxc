@@ -63,6 +63,10 @@ declare_oxc_lint!(
     ///      .then(b => getC(a, b))
     ///    )
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-nesting.md>
     NoNesting,
     promise,
     style,

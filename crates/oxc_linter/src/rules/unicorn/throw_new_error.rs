@@ -46,6 +46,10 @@ declare_oxc_lint!(
     /// throw new TypeError('unicorn');
     /// throw new lib.TypeError('unicorn');
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/throw-new-error.md>
     ThrowNewError,
     unicorn,
     style,

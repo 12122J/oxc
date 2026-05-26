@@ -60,6 +60,10 @@ declare_oxc_lint!(
     /// // Using enum methods
     /// if (Object.values(Status).includes(someValue)) {} // safe way to check
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unsafe-enum-comparison/>
     NoUnsafeEnumComparison(tsgolint),
     typescript,
     suspicious,

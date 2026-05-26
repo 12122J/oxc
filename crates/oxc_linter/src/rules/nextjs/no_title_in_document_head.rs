@@ -58,6 +58,10 @@ declare_oxc_lint!(
     ///   )
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-title-in-document-head>
     NoTitleInDocumentHead,
     nextjs,
     correctness,

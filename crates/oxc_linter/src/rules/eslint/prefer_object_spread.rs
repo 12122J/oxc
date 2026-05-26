@@ -67,6 +67,10 @@ declare_oxc_lint!(
     ///
     /// Object.assign(foo, { ...baz });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/prefer-object-spread>
     PreferObjectSpread,
     eslint,
     style,

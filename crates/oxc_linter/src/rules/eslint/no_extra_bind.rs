@@ -53,6 +53,10 @@ declare_oxc_lint!(
     ///     return a + 1;
     /// }.bind(foo, bar);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-extra-bind>
     NoExtraBind,
     eslint,
     suspicious,

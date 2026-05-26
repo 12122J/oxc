@@ -43,6 +43,11 @@ it('should be a test', () => {
 });
 test('should assert something', () => {});
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/expect-expect.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/expect-expect.md>
 ";
 #[derive(Debug, Clone, JsonSchema)]
 #[serde(rename_all = "camelCase", default)]

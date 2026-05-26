@@ -55,6 +55,10 @@ declare_oxc_lint!(
     /// declare const unknown: unknown;
     /// const str = unknown as string; // This is a different type, not just removing null
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/non-nullable-type-assertion-style/>
     NonNullableTypeAssertionStyle(tsgolint),
     typescript,
     restriction,

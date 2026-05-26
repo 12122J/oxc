@@ -42,6 +42,10 @@ declare_oxc_lint!(
     ///   result = "c";
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-nested-ternary>
     NoNestedTernary,
     eslint,
     style,

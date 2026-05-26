@@ -41,6 +41,10 @@ declare_oxc_lint!(
     /// var isPrototypeOfBar = foo.isPrototypeOf(bar);
     /// var barIsEnumerable = foo.propertyIsEnumerable("bar");
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-prototype-builtins>
     NoPrototypeBuiltins,
     eslint,
     pedantic,

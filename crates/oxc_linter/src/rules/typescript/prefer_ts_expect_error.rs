@@ -53,6 +53,10 @@ declare_oxc_lint!(
     /// * @ts-expect-error */
     /// const multiLine: number = 'value';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-ts-expect-error/>
     PreferTsExpectError,
     typescript,
     pedantic,

@@ -69,6 +69,10 @@ declare_oxc_lint!(
     /// }
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/no-arrow-functions-in-watch.html>
     NoArrowFunctionsInWatch,
     vue,
     correctness,

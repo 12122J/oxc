@@ -43,6 +43,10 @@ declare_oxc_lint!(
     /// <span tabIndex="0">foo</span>
     /// <span tabIndex="-1">bar</span>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/tabindex-no-positive.md>
     TabindexNoPositive,
     jsx_a11y,
     correctness,

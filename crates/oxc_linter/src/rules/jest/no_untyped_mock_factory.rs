@@ -82,6 +82,10 @@ declare_oxc_lint!(
     ///     { virtual: true },
     /// );
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-untyped-mock-factory.md>
     NoUntypedMockFactory,
     jest,
     style,

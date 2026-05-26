@@ -85,6 +85,10 @@ declare_oxc_lint!(
     ///			}
     ///	}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-unused-private-class-members>
     NoUnusedPrivateClassMembers,
     eslint,
     correctness,

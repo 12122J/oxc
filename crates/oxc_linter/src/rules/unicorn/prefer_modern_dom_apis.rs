@@ -75,6 +75,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// parentNode.replaceChild(newChildNode, oldChildNode);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-modern-dom-apis.md>
     PreferModernDomApis,
     unicorn,
     style,

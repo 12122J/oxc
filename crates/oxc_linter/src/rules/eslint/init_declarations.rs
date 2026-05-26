@@ -119,6 +119,10 @@ declare_oxc_lint!(
     /// /* init-declarations: ["error", "never", { "ignoreForLoopInit": true }] */
     /// for (var i = 0; i < 1; i++) {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/init-declarations>
     InitDeclarations,
     eslint,
     style,

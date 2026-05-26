@@ -78,6 +78,10 @@ declare_oxc_lint!(
     /// <div onClick={() => {}} role="button" />
     /// <input type="text" onClick={() => {}} />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-static-element-interactions.md>
     NoStaticElementInteractions,
     jsx_a11y,
     correctness,

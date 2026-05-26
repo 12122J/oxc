@@ -34,6 +34,11 @@ Examples of **correct** code for this rule:
 ```javascript
 expect({ a: 'a', b: undefined }).toStrictEqual({ a: 'a' });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-strict-equal.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-strict-equal.md>
 ";
 
 pub fn run_on_jest_node<'a, 'c>(jest_node: &PossibleJestNode<'a, 'c>, ctx: &'c LintContext<'a>) {

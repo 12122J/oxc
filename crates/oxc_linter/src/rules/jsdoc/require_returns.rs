@@ -90,6 +90,10 @@ declare_oxc_lint!(
     /// /** @returns Foo. */
     /// function quux () { return foo; }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireReturns.md>
     RequireReturns,
     jsdoc,
     pedantic,

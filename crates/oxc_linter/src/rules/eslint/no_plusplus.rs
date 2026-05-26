@@ -83,6 +83,10 @@ declare_oxc_lint!(
     ///    doSomething(i);
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-plusplus>
     NoPlusplus,
     eslint,
     restriction,

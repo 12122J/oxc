@@ -129,6 +129,10 @@ declare_oxc_lint!(
     /// `.filter()` returns an array on Array but an iterator on Iterator
     /// iterator.toArray().filter(fn);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-iterator-to-array.md>
     NoUselessIteratorToArray,
     unicorn,
     nursery,

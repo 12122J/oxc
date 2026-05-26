@@ -407,6 +407,10 @@ declare_oxc_lint!(
     ///
     /// var friend = new person.acquaintance();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/new-cap>
     NewCap,
     eslint,
     style,

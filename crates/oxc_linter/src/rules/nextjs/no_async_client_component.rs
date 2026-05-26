@@ -83,6 +83,10 @@ declare_oxc_lint!(
     ///   return <button onClick={handleClick}>Click me</button>
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-async-client-component>
     NoAsyncClientComponent,
     nextjs,
     correctness,

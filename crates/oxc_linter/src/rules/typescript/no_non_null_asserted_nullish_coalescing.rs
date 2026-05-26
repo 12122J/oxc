@@ -63,6 +63,10 @@ declare_oxc_lint!(
     /// let x: string;
     /// x! ?? '';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-non-null-asserted-nullish-coalescing/>
     NoNonNullAssertedNullishCoalescing,
     typescript,
     restriction,

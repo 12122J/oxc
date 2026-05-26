@@ -160,6 +160,10 @@ declare_oxc_lint!(
     /// import { App } from "./App";
     /// createRoot(document.getElementById("root")).render(<App />);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/only-export-components.md>
     OnlyExportComponents,
     react,
     restriction,

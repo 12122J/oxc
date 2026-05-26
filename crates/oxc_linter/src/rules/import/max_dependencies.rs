@@ -86,6 +86,10 @@ declare_oxc_lint!(
     /// import a from './a';
     /// import b from './b'; // Allowed: 2 dependencies (max: 2)
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/max-dependencies.md>
     MaxDependencies,
     import,
     pedantic,

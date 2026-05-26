@@ -37,6 +37,10 @@ declare_oxc_lint!(
     /// const foo = bar || baz;
     /// console.log(foo ?? bar);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-logical-operator-over-ternary.md>
     PreferLogicalOperatorOverTernary,
     unicorn,
     style,

@@ -46,6 +46,11 @@ test('all the things', async () => {
   await expect(a()).rejects.toThrowError('a');
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/require-to-throw-message.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-to-throw-message.md>
 ";
 
 pub fn run_on_jest_node<'a, 'c>(

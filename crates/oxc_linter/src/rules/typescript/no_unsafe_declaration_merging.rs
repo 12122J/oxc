@@ -42,6 +42,10 @@ declare_oxc_lint!(
     /// interface Foo {}
     /// class Bar {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unsafe-declaration-merging/>
     NoUnsafeDeclarationMerging,
     typescript,
     correctness,

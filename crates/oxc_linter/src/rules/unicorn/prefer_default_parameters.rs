@@ -58,6 +58,10 @@ declare_oxc_lint!(
     /// 	foo = foo || bar();
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-default-parameters.md>
     PreferDefaultParameters,
     unicorn,
     style,

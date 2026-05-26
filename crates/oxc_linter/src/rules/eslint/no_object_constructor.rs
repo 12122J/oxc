@@ -38,6 +38,10 @@ declare_oxc_lint!(
     /// const isObject = value => value === Object(value);
     /// const createObject = Object => new Object();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-object-constructor>
     NoObjectConstructor,
     eslint,
     pedantic,

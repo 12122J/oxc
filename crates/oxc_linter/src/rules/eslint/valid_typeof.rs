@@ -85,6 +85,10 @@ declare_oxc_lint!(
     /// typeof foo === baz
     /// typeof bar === typeof qux
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/valid-typeof>
     ValidTypeof,
     eslint,
     correctness,

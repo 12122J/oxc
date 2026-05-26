@@ -49,6 +49,10 @@ declare_oxc_lint!(
     ///   throw new Error("condition should be false")
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-empty>
     NoEmpty,
     eslint,
     restriction,

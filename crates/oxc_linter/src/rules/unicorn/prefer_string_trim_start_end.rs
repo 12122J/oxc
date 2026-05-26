@@ -40,6 +40,10 @@ declare_oxc_lint!(
     /// str.trimStart();
     /// str.trimEnd();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-trim-start-end.md>
     PreferStringTrimStartEnd,
     unicorn,
     style,

@@ -44,6 +44,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// Reflect.apply(foo, null);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-reflect-apply.md>
     PreferReflectApply,
     unicorn,
     style,

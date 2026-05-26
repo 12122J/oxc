@@ -44,6 +44,10 @@ declare_oxc_lint!(
     /// if (/unicorn/.test(string)) {}
     /// Boolean(string.match(/unicorn/))
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-regexp-test.md>
     PreferRegexpTest,
     unicorn,
     pedantic,

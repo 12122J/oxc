@@ -101,6 +101,10 @@ declare_oxc_lint!(
     /// a = "quux";
     /// b = "quux";
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-multi-assign>
     NoMultiAssign,
     eslint,
     style,

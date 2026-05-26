@@ -54,6 +54,10 @@ declare_oxc_lint!(
     /// <iframe title="This is a unique title" />
     /// <iframe title={uniqueTitle} />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/iframe-has-title.md>
     IframeHasTitle,
     jsx_a11y,
     correctness,

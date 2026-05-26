@@ -57,6 +57,10 @@ declare_oxc_lint!(
     /// const fullPath5 = `${__dirname}_foo.js`;
     /// const fullPath6 = `${__filename}.test.js`;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-path-concat.md>
     NoPathConcat,
     node,
     restriction,

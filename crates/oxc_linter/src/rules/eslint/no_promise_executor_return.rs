@@ -113,6 +113,10 @@ declare_oxc_lint!(
     ///
     /// new Promise(r => { r(1) });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-promise-executor-return>
     NoPromiseExecutorReturn,
     eslint,
     pedantic,

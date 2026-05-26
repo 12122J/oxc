@@ -38,6 +38,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// foo.addEventListener('click', () => {});
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-add-event-listener.md>
     PreferAddEventListener,
     unicorn,
     suspicious,

@@ -126,6 +126,10 @@ declare_oxc_lint!(
     ///    doSomething();
     /// }
     ///```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/handle-callback-err.md>
     HandleCallbackErr,
     node,
     restriction,

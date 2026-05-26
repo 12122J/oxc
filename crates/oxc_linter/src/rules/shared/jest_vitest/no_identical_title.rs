@@ -51,6 +51,11 @@ Examples of **incorrect** code for this rule:
    // ...
  });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-identical-title.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-identical-title.md>
 ";
 
 pub fn run_once(ctx: &LintContext) {

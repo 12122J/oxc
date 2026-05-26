@@ -57,6 +57,10 @@ declare_oxc_lint!(
     ///
     /// it('bar', () => {});
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/padding-around-test-blocks.md>
     PaddingAroundTestBlocks,
     jest,
     style,

@@ -44,6 +44,11 @@ test('one', () => {
    expect(1).toBe(1);
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-test-return-statement.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-test-return-statement.md>
 ";
 
 pub fn run<'a>(node: &AstNode<'a>, ctx: &LintContext<'a>) {

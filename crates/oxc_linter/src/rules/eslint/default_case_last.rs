@@ -78,6 +78,10 @@ declare_oxc_lint!(
     ///     break;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/default-case-last>
     DefaultCaseLast,
     eslint,
     style,

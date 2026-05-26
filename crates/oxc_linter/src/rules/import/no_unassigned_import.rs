@@ -78,6 +78,10 @@ declare_oxc_lint!(
     /// const {foo: bar} = require('foo')
     /// bar(require('foo'))
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unassigned-import.md>
     NoUnassignedImport,
     import,
     suspicious,

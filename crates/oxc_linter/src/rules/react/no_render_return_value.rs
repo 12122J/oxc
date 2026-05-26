@@ -46,6 +46,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// ReactDOM.render(<App />, document.body);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-render-return-value.md>
     NoRenderReturnValue,
     react,
     correctness,

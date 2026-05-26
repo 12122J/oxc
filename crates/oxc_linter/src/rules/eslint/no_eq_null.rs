@@ -54,6 +54,10 @@ declare_oxc_lint!(
     ///     bar();
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-eq-null>
     NoEqNull,
     eslint,
     restriction,

@@ -106,6 +106,10 @@ declare_oxc_lint!(
     ///   })
     /// })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/hoisted-apis-on-top.md>
     HoistedApisOnTop,
     vitest,
     correctness,

@@ -38,6 +38,10 @@ declare_oxc_lint!(
     /// const A = () => <App />
     /// const C = <B />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md>
     JsxNoUndef,
     react,
     correctness,

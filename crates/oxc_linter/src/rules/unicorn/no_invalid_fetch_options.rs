@@ -52,6 +52,10 @@ declare_oxc_lint!(
     ///
     /// const request = new Request('/', { method: 'POST', body: 'foo=bar' });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-fetch-options.md>
     NoInvalidFetchOptions,
     unicorn,
     correctness,

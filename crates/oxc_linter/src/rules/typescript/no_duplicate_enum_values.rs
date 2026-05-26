@@ -83,6 +83,10 @@ declare_oxc_lint!(
     ///    B,
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-duplicate-enum-values/>
     NoDuplicateEnumValues,
     typescript,
     correctness,

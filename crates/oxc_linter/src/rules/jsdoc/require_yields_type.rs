@@ -39,6 +39,10 @@ declare_oxc_lint!(
     /// /** @yields {string} */
     /// function * quux () {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireYieldsType.md>
     RequireYieldsType,
     jsdoc,
     pedantic,

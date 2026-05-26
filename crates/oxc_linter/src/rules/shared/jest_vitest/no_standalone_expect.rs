@@ -48,6 +48,11 @@ describe('a test', () => {
     expect(1).toBe(1);
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-standalone-expect.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-standalone-expect.md>
 ";
 
 #[derive(Debug, Default, Clone, JsonSchema, Deserialize)]

@@ -76,6 +76,11 @@ expect(loadMessage()).resolves.toBe('hello world');
 expect(didError).not.toBe(true);
 expect(catchError()).toStrictEqual({ message: 'oh noes!' });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-be.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-to-be.md>
 ";
 
 #[derive(Clone, Debug, PartialEq)]

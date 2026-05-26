@@ -78,6 +78,10 @@ declare_oxc_lint!(
     ///   var bar = 1;
     /// }());
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-implicit-globals>
     NoImplicitGlobals,
     eslint,
     restriction,

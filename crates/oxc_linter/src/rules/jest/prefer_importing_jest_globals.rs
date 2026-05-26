@@ -120,6 +120,10 @@ declare_oxc_lint!(
     ///   expect(true).toBeDefined();
     /// });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-importing-jest-globals.md>
     PreferImportingJestGlobals,
     jest,
     style,

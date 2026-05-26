@@ -78,6 +78,10 @@ declare_oxc_lint!(
     ///   `}
     /// </Script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/next-script-for-ga>
     NextScriptForGa,
     nextjs,
     correctness,

@@ -90,6 +90,10 @@ declare_oxc_lint!(
     ///
     /// promise.then(undefined, error => {});
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/catch-error-name.md>
     CatchErrorName,
     unicorn,
     style,

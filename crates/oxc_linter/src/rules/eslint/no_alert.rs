@@ -50,6 +50,10 @@ declare_oxc_lint!(
     ///     alert();
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-alert>
     NoAlert,
     eslint,
     restriction,

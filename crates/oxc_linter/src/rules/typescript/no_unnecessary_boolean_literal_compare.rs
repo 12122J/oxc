@@ -79,6 +79,10 @@ declare_oxc_lint!(
     ///   // ...
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unnecessary-boolean-literal-compare/>
     NoUnnecessaryBooleanLiteralCompare(tsgolint),
     typescript,
     suspicious,

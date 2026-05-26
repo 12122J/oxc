@@ -57,6 +57,10 @@ declare_oxc_lint!(
     /// is not an objective maximum number of lines considered acceptable in a
     /// file, most people would agree it should not be in the thousands.
     /// Recommendations usually range from 100 to 500 lines.
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/max-lines>
     MaxLines,
     eslint,
     pedantic,

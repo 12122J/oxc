@@ -43,6 +43,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// const foo = Math.trunc(1.1);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-math-trunc.md>
     PreferMathTrunc,
     unicorn,
     pedantic,

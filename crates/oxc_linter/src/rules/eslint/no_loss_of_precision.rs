@@ -81,6 +81,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// var x = 0x1FFF_FFFF_FFF_FFF;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-loss-of-precision>
     NoLossOfPrecision,
     eslint,
     correctness,

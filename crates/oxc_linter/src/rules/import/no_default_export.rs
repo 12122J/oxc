@@ -41,6 +41,10 @@ declare_oxc_lint!(
     /// export const foo = 'foo';
     /// export const bar = 'bar';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-default-export.md>
     NoDefaultExport,
     import,
     restriction,

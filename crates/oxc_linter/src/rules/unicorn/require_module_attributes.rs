@@ -57,6 +57,10 @@ declare_oxc_lint!(
     ///
     /// const foo = await import('foo');
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-module-attributes.md>
     RequireModuleAttributes,
     unicorn,
     style,

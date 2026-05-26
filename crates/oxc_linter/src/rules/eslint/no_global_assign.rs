@@ -51,6 +51,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// Object = null
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-global-assign>
     NoGlobalAssign,
     eslint,
     correctness,

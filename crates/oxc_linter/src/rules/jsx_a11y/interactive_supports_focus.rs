@@ -88,6 +88,10 @@ declare_oxc_lint!(
     /// <a href="javascript:void(0);" onClick={doSomething}>Click ALL the things!</a>
     /// <button onClick={doSomething}>Click the button :)</button>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/interactive-supports-focus.md>
     InteractiveSupportsFocus,
     jsx_a11y,
     correctness,

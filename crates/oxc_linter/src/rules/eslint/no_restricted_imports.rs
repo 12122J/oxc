@@ -547,6 +547,10 @@ declare_oxc_lint!(
     ///
     /// import { isEmpty } from 'utils/collection-utils';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-restricted-imports>
     NoRestrictedImports,
     eslint,
     restriction,

@@ -53,6 +53,11 @@ myFunction
   .mockResolvedValueOnce(42)
   .mockRejectedValue(new Error('too many calls!'));
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-mock-promise-shorthand.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-mock-promise-shorthand.md>
 ";
 
 pub fn run<'a>(node: &oxc_semantic::AstNode<'a>, ctx: &LintContext<'a>) {

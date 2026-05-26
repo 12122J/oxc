@@ -48,6 +48,11 @@ expect(someFunction).not.toHaveBeenCalledTimes(0);
 expect(uncalledFunction).not.toBeCalled();
 expect(method.mock.calls[0][0]).toStrictEqual(value);
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-to-have-been-called-times.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-to-have-been-called-times.md>
 ";
 
 pub fn run<'a>(possible_jest_node: &PossibleJestNode<'a, '_>, ctx: &LintContext<'a>) {

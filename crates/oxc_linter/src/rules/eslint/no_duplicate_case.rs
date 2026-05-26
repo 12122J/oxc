@@ -74,6 +74,10 @@ declare_oxc_lint!(
     ///         break
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-duplicate-case>
     NoDuplicateCase,
     eslint,
     correctness,

@@ -165,6 +165,10 @@ declare_oxc_lint!(
     ///   return;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/explicit-module-boundary-types/>
     ExplicitModuleBoundaryTypes,
     typescript,
     restriction,

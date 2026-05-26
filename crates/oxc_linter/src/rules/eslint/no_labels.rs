@@ -114,6 +114,10 @@ declare_oxc_lint!(
     ///     continue;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-labels>
     NoLabels,
     eslint,
     style,

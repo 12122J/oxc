@@ -35,6 +35,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <meta charset="UTF-8" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/aria-unsupported-elements.md>
     AriaUnsupportedElements,
     jsx_a11y,
     correctness,

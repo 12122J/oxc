@@ -120,6 +120,10 @@ declare_oxc_lint!(
     ///     }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/block-scoped-var>
     BlockScopedVar,
     eslint,
     suspicious,

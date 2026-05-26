@@ -131,6 +131,10 @@ declare_oxc_lint!(
     ///   1_294_287_712n,
     /// ];
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/numeric-separators-style.md>
     NumericSeparatorsStyle,
     unicorn,
     style,

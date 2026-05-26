@@ -52,6 +52,10 @@ declare_oxc_lint!(
     /// let identity: <T>(value: T) => T;
     /// identity = value => value;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unsafe-function-type/>
     NoUnsafeFunctionType,
     typescript,
     pedantic,

@@ -104,6 +104,10 @@ declare_oxc_lint!(
     ///   [key: string]: unknown;
     /// };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/consistent-indexed-object-style/>
     ConsistentIndexedObjectStyle,
     typescript,
     style,

@@ -71,6 +71,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <Foo test="javascript:void(0)" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-script-url.md>
     JsxNoScriptUrl,
     react,
     suspicious,

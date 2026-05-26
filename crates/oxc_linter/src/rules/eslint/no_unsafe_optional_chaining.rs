@@ -58,6 +58,10 @@ declare_oxc_lint!(
     /// bar instanceof obj?.foo;  // TypeError
     /// const { bar } = obj?.foo;  // TypeError
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-unsafe-optional-chaining>
     NoUnsafeOptionalChaining,
     eslint,
     correctness,

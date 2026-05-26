@@ -95,6 +95,10 @@ declare_oxc_lint!(
     ///
     /// `__tests__/2.spec.ts`
     ///
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/consistent-test-filename.md>
     ConsistentTestFilename,
     vitest,
     style,

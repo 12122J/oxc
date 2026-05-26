@@ -51,6 +51,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// const ts = Date.now();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-date-now.md>
     PreferDateNow,
     unicorn,
     pedantic,

@@ -47,6 +47,10 @@ declare_oxc_lint!(
     /// ```js
     /// const foo = string.slice(1);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-slice-end.md>
     NoUnnecessarySliceEnd,
     unicorn,
     pedantic,

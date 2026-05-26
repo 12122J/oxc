@@ -40,6 +40,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// function foo({a = false} = {}) {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-object-as-default-parameter.md>
     NoObjectAsDefaultParameter,
     unicorn,
     pedantic,

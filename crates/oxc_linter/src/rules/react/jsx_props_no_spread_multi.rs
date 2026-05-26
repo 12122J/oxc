@@ -59,6 +59,10 @@ declare_oxc_lint!(
     /// <App myAttr="1" {...props} />
     /// <App {...props} myAttr="1" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spread-multi.md>
     JsxPropsNoSpreadMulti,
     react,
     correctness,

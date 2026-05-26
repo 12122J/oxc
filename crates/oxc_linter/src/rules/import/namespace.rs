@@ -107,6 +107,10 @@ declare_oxc_lint!(
     /// const method = "bar";
     /// foo[method](); // Valid: method refers to an exported function
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/namespace.md>
     Namespace,
     import,
     correctness,

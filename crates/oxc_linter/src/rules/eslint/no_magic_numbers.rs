@@ -239,6 +239,10 @@ declare_oxc_lint!(
     /// type Foo = Bar[0];
     /// type Baz = Parameters<Foo>[2];
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-magic-numbers>
     NoMagicNumbers,
     eslint,
     style,

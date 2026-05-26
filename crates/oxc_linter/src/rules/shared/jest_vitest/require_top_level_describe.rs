@@ -85,6 +85,11 @@ describe('test suite', () => {
     });
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/require-top-level-describe.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-top-level-describe.md>
 ";
 
 #[derive(Debug, Clone, JsonSchema, Deserialize)]

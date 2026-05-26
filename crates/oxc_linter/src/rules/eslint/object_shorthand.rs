@@ -151,6 +151,10 @@ declare_oxc_lint!(
     /// var properties = { x, y, z };
     /// var methods = { a() {}, b() {} };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/object-shorthand>
     ObjectShorthand,
     eslint,
     style,

@@ -34,6 +34,10 @@ declare_oxc_lint!(
     /// declare const obj: { a?: number };
     /// delete obj.a;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-array-delete/>
     NoArrayDelete(tsgolint),
     typescript,
     correctness,

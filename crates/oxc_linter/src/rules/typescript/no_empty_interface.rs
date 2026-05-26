@@ -63,6 +63,10 @@ declare_oxc_lint!(
     ///     member: string;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-empty-interface/>
     NoEmptyInterface,
     typescript,
     style,

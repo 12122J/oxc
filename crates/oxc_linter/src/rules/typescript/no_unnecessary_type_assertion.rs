@@ -63,6 +63,10 @@ declare_oxc_lint!(
     /// const str2: string = 'hello';
     /// const num: number = 42;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unnecessary-type-assertion/>
     NoUnnecessaryTypeAssertion(tsgolint),
     typescript,
     suspicious,

@@ -125,6 +125,10 @@ declare_oxc_lint!(
     /// type P = Promise<void>;
     /// type U = void | never;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-invalid-void-type/>
     NoInvalidVoidType,
     typescript,
     restriction,

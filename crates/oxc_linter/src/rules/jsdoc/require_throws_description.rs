@@ -47,6 +47,10 @@ declare_oxc_lint!(
     ///   throw new Error('error');
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireThrowsDescription.md>
     RequireThrowsDescription,
     jsdoc,
     style,

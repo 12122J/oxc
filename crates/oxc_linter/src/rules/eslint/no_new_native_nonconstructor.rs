@@ -45,6 +45,10 @@ declare_oxc_lint!(
     ///
     /// let result = BigInt(9007199254740991);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-new-native-nonconstructor>
     NoNewNativeNonconstructor,
     eslint,
     correctness,

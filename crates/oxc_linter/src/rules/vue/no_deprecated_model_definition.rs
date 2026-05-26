@@ -82,6 +82,10 @@ declare_oxc_lint!(
     /// }
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/no-deprecated-model-definition.html>
     NoDeprecatedModelDefinition,
     vue,
     correctness,

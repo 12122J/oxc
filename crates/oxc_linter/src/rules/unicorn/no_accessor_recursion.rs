@@ -68,6 +68,10 @@ declare_oxc_lint!(
     ///   }
     /// };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-accessor-recursion.md>
     NoAccessorRecursion,
     unicorn,
     suspicious,

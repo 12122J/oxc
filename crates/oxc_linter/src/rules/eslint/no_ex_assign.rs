@@ -48,6 +48,10 @@ declare_oxc_lint!(
     ///     let val = 10;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-ex-assign>
     NoExAssign,
     eslint,
     correctness,

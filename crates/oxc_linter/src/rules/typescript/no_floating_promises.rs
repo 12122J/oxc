@@ -103,6 +103,10 @@ declare_oxc_lint!(
     ///
     /// await Promise.all([1, 2, 3].map(async x => x + 1));
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-floating-promises/>
     NoFloatingPromises(tsgolint),
     typescript,
     correctness,

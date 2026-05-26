@@ -82,6 +82,10 @@ declare_oxc_lint!(
     /// // with "enforceForInnerExpressions" option enabled
     /// if (foo || bar) {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-extra-boolean-cast>
     NoExtraBooleanCast,
     eslint,
     correctness,

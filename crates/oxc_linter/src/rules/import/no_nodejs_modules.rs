@@ -75,6 +75,10 @@ declare_oxc_lint!(
     /// /* import/no-nodejs-modules: ["error", {"allow": ["path"]}] */
     /// import path from 'path';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-nodejs-modules.md>
     NoNodejsModules,
     import,
     style,

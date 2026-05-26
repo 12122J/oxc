@@ -50,6 +50,10 @@ declare_oxc_lint!(
     /// var b = 0;
     /// b += 1;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-const-assign>
     NoConstAssign,
     eslint,
     correctness,

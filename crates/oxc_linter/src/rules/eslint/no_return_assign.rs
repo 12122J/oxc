@@ -56,6 +56,10 @@ declare_oxc_lint!(
     /// () => (a = b)
     /// function x() { var result = a = b; return result; }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-return-assign>
     NoReturnAssign,
     eslint,
     style,

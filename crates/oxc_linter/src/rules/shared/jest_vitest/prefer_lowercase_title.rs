@@ -44,6 +44,11 @@ it('adds 1 + 2 to equal 3', () => {
     expect(sum(1, 2)).toBe(3);
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-lowercase-title.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-lowercase-title.md>
 ";
 
 #[derive(Debug, Clone, Deserialize, JsonSchema)]

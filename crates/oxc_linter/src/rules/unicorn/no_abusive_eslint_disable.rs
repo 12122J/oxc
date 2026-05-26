@@ -70,6 +70,10 @@ declare_oxc_lint!(
     /// // oxlint-disable-next-line no-console
     /// console.log(message);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-abusive-eslint-disable.md>
     NoAbusiveEslintDisable,
     unicorn,
     restriction,

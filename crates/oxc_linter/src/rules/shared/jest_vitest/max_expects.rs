@@ -49,6 +49,11 @@ it('should not pass', () => {
     expect(true).toBeDefined();
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/max-expects.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/max-expects.md>
 ";
 
 #[derive(Debug, Clone, JsonSchema, Deserialize)]

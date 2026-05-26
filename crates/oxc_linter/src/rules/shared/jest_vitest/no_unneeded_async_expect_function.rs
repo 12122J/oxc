@@ -41,6 +41,11 @@ Examples of **correct** code for this rule:
 ```js
 await expect(doSomethingAsync()).rejects.toThrow();
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-unneeded-async-expect-function.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-unneeded-async-expect-function.md>
 ";
 
 pub fn run_on_jest_node<'a, 'c>(jest_node: &PossibleJestNode<'a, 'c>, ctx: &'c LintContext<'a>) {

@@ -56,6 +56,10 @@ declare_oxc_lint!(
     /// // Explicit any assignment (still not recommended, but intentional)
     /// const anything: any = unknownValue;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unsafe-assignment/>
     NoUnsafeAssignment(tsgolint),
     typescript,
     pedantic,

@@ -96,6 +96,10 @@ declare_oxc_lint!(
     /// import { c } from 'foo';      // separate type imports, unless
     /// import type { d } from 'foo'; // `prefer-inline` is true
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-duplicates.md>
     NoDuplicates,
     import,
     style,

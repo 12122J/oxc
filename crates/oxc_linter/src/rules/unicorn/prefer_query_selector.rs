@@ -59,6 +59,10 @@ declare_oxc_lint!(
     /// document.querySelectorAll('li a');
     /// document.querySelector('li').querySelectorAll('a');
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-query-selector.md>
     PreferQuerySelector,
     unicorn,
     pedantic,

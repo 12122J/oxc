@@ -122,6 +122,10 @@ declare_oxc_lint!(
     ///   readonly name = "oxc";
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/class-literal-property-style/>
     ClassLiteralPropertyStyle,
     typescript,
     style,

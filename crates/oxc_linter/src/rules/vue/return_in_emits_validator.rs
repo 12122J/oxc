@@ -68,6 +68,10 @@ declare_oxc_lint!(
     /// }
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/return-in-emits-validator.html>
     ReturnInEmitsValidator,
     vue,
     correctness,

@@ -58,6 +58,10 @@ declare_oxc_lint!(
     ///    // do something!
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-length-check.md>
     NoUselessLengthCheck,
     unicorn,
     correctness,

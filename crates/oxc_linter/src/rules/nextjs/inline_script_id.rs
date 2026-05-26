@@ -89,6 +89,10 @@ declare_oxc_lint!(
     ///   );
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/inline-script-id>
     InlineScriptId,
     nextjs,
     correctness,

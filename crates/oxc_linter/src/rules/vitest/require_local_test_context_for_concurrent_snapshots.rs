@@ -82,6 +82,10 @@ declare_oxc_lint!(
     ///     context.expect(true).toMatchSnapshot();
     /// })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-local-test-context-for-concurrent-snapshots.md>
     RequireLocalTestContextForConcurrentSnapshots,
     vitest,
     correctness,

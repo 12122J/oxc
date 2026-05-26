@@ -112,6 +112,10 @@ declare_oxc_lint!(
     ///     static ["prototype"]; // runtime error, it would be a parsing error without `[]`
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-useless-computed-key>
     NoUselessComputedKey,
     eslint,
     style,

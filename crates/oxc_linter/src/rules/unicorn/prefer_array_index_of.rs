@@ -43,6 +43,10 @@ declare_oxc_lint!(
     /// values.indexOf("foo");
     /// values.lastIndexOf("bar");
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-index-of.md>
     PreferArrayIndexOf,
     unicorn,
     style,

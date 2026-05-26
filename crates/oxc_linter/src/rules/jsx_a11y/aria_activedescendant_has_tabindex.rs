@@ -62,6 +62,10 @@ declare_oxc_lint!(
     ///     <input aria-activedescendant={someID} tabIndex={-1} />
     /// </>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/aria-activedescendant-has-tabindex.md>
     AriaActivedescendantHasTabindex,
     jsx_a11y,
     correctness,

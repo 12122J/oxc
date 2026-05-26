@@ -67,6 +67,10 @@ declare_oxc_lint!(
     /// }
     /// export default MyDocument
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-duplicate-head>
     NoDuplicateHead,
     nextjs,
     correctness,

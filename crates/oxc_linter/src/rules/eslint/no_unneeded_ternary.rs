@@ -72,6 +72,10 @@ declare_oxc_lint!(
     ///
     /// foo(bar || 1);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-unneeded-ternary>
     NoUnneededTernary,
     eslint,
     suspicious,

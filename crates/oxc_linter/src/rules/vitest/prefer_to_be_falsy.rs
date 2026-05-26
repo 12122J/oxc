@@ -32,6 +32,10 @@ declare_oxc_lint!(
     /// expect(foo).toBeFalsy()
     /// expectTypeOf(foo).toBeFalsy()
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-to-be-falsy.md>
     PreferToBeFalsy,
     vitest,
     style,

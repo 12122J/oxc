@@ -53,6 +53,10 @@ declare_oxc_lint!(
     ///    return new FooIterator(this);
     /// };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-iterator>
     NoIterator,
     eslint,
     correctness,

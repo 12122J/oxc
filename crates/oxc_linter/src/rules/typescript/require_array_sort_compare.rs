@@ -70,6 +70,10 @@ declare_oxc_lint!(
     /// people.sort((a, b) => a.age - b.age);
     /// people.sort((a, b) => a.name.localeCompare(b.name));
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/require-array-sort-compare/>
     RequireArraySortCompare(tsgolint),
     typescript,
     correctness,

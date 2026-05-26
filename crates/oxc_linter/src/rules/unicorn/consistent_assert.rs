@@ -46,6 +46,10 @@ declare_oxc_lint!(
     ///
     /// assert.ok(divide(10, 2) === 5);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-assert.md>
     ConsistentAssert,
     unicorn,
     pedantic,

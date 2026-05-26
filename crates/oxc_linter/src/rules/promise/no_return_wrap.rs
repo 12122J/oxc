@@ -131,6 +131,10 @@ declare_oxc_lint!(
     /// ```js
     /// myPromise().finally(() => 4)
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-return-wrap.md>
     NoReturnWrap,
     promise,
     style,

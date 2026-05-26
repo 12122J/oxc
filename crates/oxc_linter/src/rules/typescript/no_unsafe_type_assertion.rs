@@ -41,6 +41,10 @@ declare_oxc_lint!(
     /// const items = [1, '2', 3, '4'];
     /// const number = items[0] as number | string | undefined;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unsafe-type-assertion/>
     NoUnsafeTypeAssertion(tsgolint),
     typescript,
     suspicious,

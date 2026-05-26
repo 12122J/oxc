@@ -122,6 +122,10 @@ declare_oxc_lint!(
     ///     }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/callback-return.md>
     CallbackReturn,
     node,
     style,

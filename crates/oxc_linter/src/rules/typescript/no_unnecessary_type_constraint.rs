@@ -73,6 +73,10 @@ declare_oxc_lint!(
     ///   qux<U>() {}
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unnecessary-type-constraint/>
     NoUnnecessaryTypeConstraint,
     typescript,
     suspicious,

@@ -47,6 +47,10 @@ declare_oxc_lint!(
     ///
     /// const fn = (a: number, b: number) => a + b;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-implied-eval/>
     NoImpliedEval(tsgolint),
     typescript,
     correctness,

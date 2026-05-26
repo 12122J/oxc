@@ -39,6 +39,10 @@ declare_oxc_lint!(
     ///   expect(1).toBe(1);
     /// });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-export.md>
     NoExport,
     jest,
     correctness,

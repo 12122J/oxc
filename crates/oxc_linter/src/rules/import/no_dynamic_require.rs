@@ -50,6 +50,10 @@ declare_oxc_lint!(
     /// require('../name');
     /// require(`../name`);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-dynamic-require.md>
     NoDynamicRequire,
     import,
     restriction,

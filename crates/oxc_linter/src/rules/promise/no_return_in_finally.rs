@@ -41,6 +41,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// Promise.resolve(1).finally(() => { console.log(2) })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/no-return-in-finally.md>
     NoReturnInFinally,
     promise,
     nursery,

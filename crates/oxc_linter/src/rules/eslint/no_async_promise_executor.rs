@@ -78,6 +78,10 @@ declare_oxc_lint!(
     ///
     /// const result = Promise.resolve(foo);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-async-promise-executor>
     NoAsyncPromiseExecutor,
     eslint,
     correctness,

@@ -48,6 +48,10 @@ declare_oxc_lint!(
     ///
     /// const Hello = <div>Hello World</div>;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-danger.md>
     NoDanger,
     react,
     restriction,

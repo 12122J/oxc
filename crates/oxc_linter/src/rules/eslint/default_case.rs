@@ -118,6 +118,10 @@ declare_oxc_lint!(
     ///   // no default
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/default-case>
     DefaultCase,
     eslint,
     restriction,

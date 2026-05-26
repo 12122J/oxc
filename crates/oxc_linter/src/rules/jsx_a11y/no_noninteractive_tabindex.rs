@@ -87,6 +87,10 @@ declare_oxc_lint!(
     /// <div role="article" tabIndex="-1" />
     /// <article tabIndex="-1" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-noninteractive-tabindex.md>
     NoNoninteractiveTabindex,
     jsx_a11y,
     correctness,

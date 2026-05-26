@@ -44,6 +44,10 @@ declare_oxc_lint!(
     ///   console.log('Hello World')
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/exports-last.md>
     ExportsLast,
     import,
     style,

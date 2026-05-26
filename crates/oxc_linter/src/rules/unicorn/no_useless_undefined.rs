@@ -73,6 +73,10 @@ declare_oxc_lint!(
     /// let foo;
     /// const noop = () => {};
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-undefined.md>
     NoUselessUndefined,
     unicorn,
     pedantic,

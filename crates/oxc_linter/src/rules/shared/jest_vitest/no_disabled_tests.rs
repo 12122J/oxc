@@ -43,6 +43,11 @@ it('foo', () => {
   pending();
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-disabled-tests.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-disabled-tests.md>
 ";
 
 fn no_disabled_tests_diagnostic(x1: &'static str, x2: &'static str, span3: Span) -> OxcDiagnostic {

@@ -67,6 +67,10 @@ declare_oxc_lint!(
     ///   return obj.value;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-readonly-parameter-types/>
     PreferReadonlyParameterTypes(tsgolint),
     typescript,
     pedantic,

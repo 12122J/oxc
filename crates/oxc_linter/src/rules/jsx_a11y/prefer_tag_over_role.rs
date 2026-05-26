@@ -42,6 +42,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <button />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/prefer-tag-over-role.md>
     PreferTagOverRole,
     jsx_a11y,
     correctness,

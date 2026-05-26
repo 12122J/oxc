@@ -469,6 +469,10 @@ declare_oxc_lint!(
     ///
     /// Oxlint is also able to resolve multiple `tsconfig.json` files in a single repo, and so in a
     /// monorepo setup will be more capable with regards to resolving file paths.
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/extensions.md>
     Extensions,
     import,
     restriction,

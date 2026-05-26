@@ -51,6 +51,10 @@ declare_oxc_lint!(
     ///   c = b,
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-literal-enum-member/>
     PreferLiteralEnumMember,
     typescript,
     restriction,

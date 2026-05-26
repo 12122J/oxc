@@ -134,6 +134,10 @@ declare_oxc_lint!(
     /// <object aria-label="Interactive chart" />
     /// <area alt="Navigation link" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/alt-text.md>
     AltText,
     jsx_a11y,
     correctness,

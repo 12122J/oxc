@@ -46,6 +46,10 @@ declare_oxc_lint!(
     /// const foo = String('hello world');
     /// const bar = new Array(1, 2, 3);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/new-for-builtins.md>
     NewForBuiltins,
     unicorn,
     pedantic,

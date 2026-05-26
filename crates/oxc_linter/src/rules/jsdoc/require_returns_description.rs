@@ -42,6 +42,10 @@ declare_oxc_lint!(
     /// /** @returns Foo. */
     /// function quux (foo) {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/requireReturnsDescription.md>
     RequireReturnsDescription,
     jsdoc,
     pedantic,

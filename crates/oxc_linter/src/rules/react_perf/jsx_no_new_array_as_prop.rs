@@ -40,6 +40,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <Item list={this.props.list} />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/cvazac/eslint-plugin-react-perf/blob/master/docs/rules/jsx-no-new-array-as-prop.md>
     JsxNoNewArrayAsProp,
     react_perf,
     perf,

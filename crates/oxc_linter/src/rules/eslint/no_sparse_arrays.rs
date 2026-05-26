@@ -50,6 +50,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// var colors = [ "red", "blue", ];
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-sparse-arrays>
     NoSparseArrays,
     eslint,
     correctness,

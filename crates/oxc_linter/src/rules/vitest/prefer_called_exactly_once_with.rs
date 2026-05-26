@@ -184,6 +184,10 @@ declare_oxc_lint!(
     ///   expect(mock).toHaveBeenCalledExactlyOnceWith('foo')
     /// })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-called-exactly-once-with.md>
     PreferCalledExactlyOnceWith,
     vitest,
     style,

@@ -51,6 +51,10 @@ declare_oxc_lint!(
     /// const foo = [1, 2, 3];
     /// for (const element of foo) { /* ... */ }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-for-each.md>
     NoArrayForEach,
     unicorn,
     restriction,

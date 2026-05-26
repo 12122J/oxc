@@ -100,6 +100,10 @@ declare_oxc_lint!(
     ///   return { then: () => {} };
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/promise-function-async/>
     PromiseFunctionAsync(tsgolint),
     typescript,
     restriction,

@@ -38,6 +38,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// const buffer = Buffer.alloc(10);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-new-buffer.md>
     NoNewBuffer,
     unicorn,
     pedantic,

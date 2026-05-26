@@ -152,6 +152,10 @@ declare_oxc_lint!(
     /// }
     /// type TypeWith = { property: boolean };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-empty-object-type/>
     NoEmptyObjectType,
     typescript,
     restriction,

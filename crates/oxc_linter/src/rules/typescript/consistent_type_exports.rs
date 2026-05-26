@@ -42,6 +42,10 @@ declare_oxc_lint!(
     /// export type { TypeOnly } from "./mod";
     /// export { value } from "./mod";
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/consistent-type-exports/>
     ConsistentTypeExports(tsgolint),
     typescript,
     style,

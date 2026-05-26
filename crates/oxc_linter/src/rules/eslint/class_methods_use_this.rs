@@ -126,6 +126,10 @@ declare_oxc_lint!(
     ///     }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/class-methods-use-this>
     ClassMethodsUseThis,
     eslint,
     restriction,

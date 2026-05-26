@@ -55,6 +55,10 @@ declare_oxc_lint!(
     /// array.reduce(reducer, initialValue);
     /// array.reduceRight(reducer, initialValue);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-reduce.md>
     NoArrayReduce,
     unicorn,
     restriction,

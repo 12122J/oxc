@@ -45,6 +45,10 @@ declare_oxc_lint!(
     /// const foo = "\u{1D306}";
     /// const foo = "\cA";
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/escape-case.md>
     EscapeCase,
     unicorn,
     pedantic,

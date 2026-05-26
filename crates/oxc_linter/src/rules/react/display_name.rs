@@ -60,6 +60,10 @@ declare_oxc_lint!(
     /// const MyComponent = () => <div>Hello</div>;
     /// MyComponent.displayName = 'MyComponent';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/display-name.md>
     DisplayName,
     react,
     pedantic,

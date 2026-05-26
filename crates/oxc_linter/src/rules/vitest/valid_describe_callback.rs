@@ -40,6 +40,10 @@ declare_oxc_lint!(
     ///     expect(myFunction()).toBeTruthy();
     /// }));
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/valid-describe-callback.md>
     ValidDescribeCallback,
     vitest,
     correctness,

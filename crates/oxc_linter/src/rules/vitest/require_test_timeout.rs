@@ -91,6 +91,10 @@ declare_oxc_lint!(
     ///   await doSomethingSlow()
     /// })
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/require-test-timeout.md>
     RequireTestTimeout,
     vitest,
     restriction,

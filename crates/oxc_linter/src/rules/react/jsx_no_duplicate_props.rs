@@ -54,6 +54,10 @@ declare_oxc_lint!(
     /// This rule does not support the `ignoreCase` option. Props with different cases are
     /// considered distinct and will not be flagged as duplicates (e.g., `<App foo Foo />`
     /// is allowed). This is intentional, as props are case-sensitive in JSX.
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md>
     JsxNoDuplicateProps,
     react,
     correctness,

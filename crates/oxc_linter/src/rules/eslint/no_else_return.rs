@@ -178,6 +178,10 @@ declare_oxc_lint!(
     ///     }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-else-return>
     NoElseReturn,
     eslint,
     pedantic,

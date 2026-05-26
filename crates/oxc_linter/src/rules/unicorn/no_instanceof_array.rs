@@ -38,6 +38,10 @@ declare_oxc_lint!(
     /// Array.isArray(array);
     /// Array.isArray([1,2,3]);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-array.md>
     NoInstanceofArray,
     unicorn,
     pedantic,

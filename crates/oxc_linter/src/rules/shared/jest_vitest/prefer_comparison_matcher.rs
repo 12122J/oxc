@@ -54,6 +54,11 @@ expect(x).toBeLessThanOrEqual(y);
 // special case - see below
 expect(x < 'Carl').toBe(true);
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-comparison-matcher.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-comparison-matcher.md>
 ";
 
 pub fn run_on_jest_node<'a, 'c>(

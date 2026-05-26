@@ -55,6 +55,10 @@ declare_oxc_lint!(
     /// <a />
     /// <a><TextWrapper aria-hidden /></a>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/anchor-has-content.md>
     AnchorHasContent,
     jsx_a11y,
     correctness,

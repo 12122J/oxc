@@ -59,6 +59,10 @@ declare_oxc_lint!(
     ///     });
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-document-cookie.md>
     NoDocumentCookie,
     unicorn,
     restriction,

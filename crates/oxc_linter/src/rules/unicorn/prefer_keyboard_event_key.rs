@@ -66,6 +66,10 @@ declare_oxc_lint!(
     ///   console.log(event.key);
     /// });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-keyboard-event-key.md>
     PreferKeyboardEventKey,
     unicorn,
     style,

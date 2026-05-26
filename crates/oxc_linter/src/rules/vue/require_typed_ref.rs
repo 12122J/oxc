@@ -41,6 +41,10 @@ declare_oxc_lint!(
     /// const count = ref<number>()
     /// const a = ref(0)
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/require-typed-ref.html>
     RequireTypedRef,
     vue,
     style,

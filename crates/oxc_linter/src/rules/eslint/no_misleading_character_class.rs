@@ -129,6 +129,10 @@ declare_oxc_lint!(
     /// /[\u00B7\u0300-\u036F]/u;
     /// new RegExp("^[\u{1F1EF}\u{1F1F5}]", "u");
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-misleading-character-class>
     NoMisleadingCharacterClass,
     eslint,
     correctness,

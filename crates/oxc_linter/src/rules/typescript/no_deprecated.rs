@@ -59,6 +59,10 @@ declare_oxc_lint!(
     /// // Modern Node.js API, uses `new URL()`
     /// const url2 = new URL('/foo', 'http://www.example.com');
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-deprecated/>
     NoDeprecated(tsgolint),
     typescript,
     pedantic,

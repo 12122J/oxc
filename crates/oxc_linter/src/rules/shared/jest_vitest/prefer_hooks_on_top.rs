@@ -138,6 +138,11 @@ describe('foo', () => {
     });
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-hooks-on-top.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-hooks-on-top.md>
 ";
 
 pub fn run_once(ctx: &LintContext) {

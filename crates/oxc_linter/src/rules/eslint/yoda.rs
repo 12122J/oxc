@@ -73,6 +73,10 @@ declare_oxc_lint!(
     /// Yoda conditions are so named because the literal value of the condition comes first while the variable comes second. For example, the following is a Yoda condition:
     /// ```js
     /// if ("red" === color) {
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/yoda>
     //     // ...
     /// }
     /// ```

@@ -215,6 +215,10 @@ declare_oxc_lint!(
     ///
     /// const foo = bar(function *baz() {});
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/func-names>
     FuncNames,
     eslint,
     style,

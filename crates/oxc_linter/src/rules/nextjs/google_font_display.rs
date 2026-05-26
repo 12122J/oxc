@@ -71,6 +71,10 @@ declare_oxc_lint!(
     ///     );
     /// };
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/google-font-display>
     GoogleFontDisplay,
     nextjs,
     correctness,

@@ -46,6 +46,10 @@ declare_oxc_lint!(
     /// // ./foo.js
     /// import { bar } from './bar' // correct usage of named import
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/default.md>
     Default,
     import,
     correctness,

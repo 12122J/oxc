@@ -20,6 +20,10 @@ declare_oxc_lint!(
     /// ### Why is this bad?
     ///
     /// It's a good practice to be consistent in your test suite, so that all tests are written in the same way.
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/consistent-test-it.md>
     ConsistentTestIt,
     jest,
     style,

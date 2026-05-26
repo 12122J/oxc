@@ -58,6 +58,10 @@ declare_oxc_lint!(
     /// throw new Error('Unexpected token')
     /// throw new TypeError('Number expected')
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/error-message.md>
     ErrorMessage,
     unicorn,
     style,

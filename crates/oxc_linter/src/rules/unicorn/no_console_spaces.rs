@@ -45,6 +45,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// console.log("abc", "def");
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-console-spaces.md>
     NoConsoleSpaces,
     unicorn,
     style,

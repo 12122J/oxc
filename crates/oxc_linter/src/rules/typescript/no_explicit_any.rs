@@ -69,6 +69,10 @@ declare_oxc_lint!(
     /// function greet(param: Array<string>): string {}
     /// function greet(param: Array<string>): Array<string> {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-explicit-any/>
     NoExplicitAny,
     typescript,
     restriction,

@@ -46,6 +46,10 @@ declare_oxc_lint!(
     ///     break;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-switch-case.md>
     NoUselessSwitchCase,
     unicorn,
     pedantic,

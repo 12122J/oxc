@@ -81,6 +81,10 @@ declare_oxc_lint!(
     /// for (let i = MIN; i <= MAX; i -= 0) { // not increasing or decreasing
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/for-direction>
     ForDirection,
     eslint,
     correctness,

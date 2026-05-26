@@ -43,6 +43,10 @@ declare_oxc_lint!(
     ///   constructor() { this.value = 42; }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-constructor-return>
     NoConstructorReturn,
     eslint,
     pedantic,

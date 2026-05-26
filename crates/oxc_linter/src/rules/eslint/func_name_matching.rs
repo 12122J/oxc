@@ -217,6 +217,10 @@ declare_oxc_lint!(
     ///
     /// module.exports = function foo(name) {};
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/func-name-matching>
     FuncNameMatching,
     eslint,
     style,

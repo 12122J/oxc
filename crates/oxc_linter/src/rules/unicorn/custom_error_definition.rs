@@ -121,6 +121,10 @@ declare_oxc_lint!(
     /// 	name = 'CustomError';
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/custom-error-definition.md>
     CustomErrorDefinition,
     unicorn,
     style,

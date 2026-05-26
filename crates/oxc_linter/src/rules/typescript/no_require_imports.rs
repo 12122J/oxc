@@ -111,6 +111,10 @@ declare_oxc_lint!(
     /// import { lib2 } from 'lib2';
     /// import * as lib3 from 'lib3';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-require-imports/>
     NoRequireImports,
     typescript,
     restriction,

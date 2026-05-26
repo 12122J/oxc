@@ -88,6 +88,10 @@ declare_oxc_lint!(
     ///
     /// const unicorn = foo.length > 0 ? 1 : 2;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/explicit-length-check.md>
     ExplicitLengthCheck,
     unicorn,
     pedantic,

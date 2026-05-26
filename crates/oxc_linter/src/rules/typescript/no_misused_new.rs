@@ -77,6 +77,10 @@ declare_oxc_lint!(
     ///   new (): C;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-misused-new/>
     NoMisusedNew,
     typescript,
     correctness,

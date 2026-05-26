@@ -150,6 +150,10 @@ declare_oxc_lint!(
     ///     return new RegExp("eee", flags)
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/require-unicode-regexp>
     RequireUnicodeRegexp,
     eslint,
     pedantic,

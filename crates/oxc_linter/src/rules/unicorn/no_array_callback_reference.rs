@@ -51,6 +51,10 @@ declare_oxc_lint!(
     /// const foo = array.map(String);
     /// const bar = array.filter(Boolean);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-callback-reference.md>
     NoArrayCallbackReference,
     unicorn,
     pedantic,

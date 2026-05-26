@@ -140,6 +140,10 @@ declare_oxc_lint!(
     ///
     /// [`noreferrer` docs]: https://html.spec.whatwg.org/multipage/links.html#link-type-noreferrer
     /// [`noopener` docs]: https://html.spec.whatwg.org/multipage/links.html#link-type-noopener
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md>
     JsxNoTargetBlank,
     react,
     pedantic,

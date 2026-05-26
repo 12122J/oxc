@@ -36,6 +36,10 @@ declare_oxc_lint!(
     /// var AppHeader = require('app-header');
     /// var appHeader = new AppHeader();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/no-new-require.md>
     NoNewRequire,
     node,
     restriction,

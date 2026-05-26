@@ -53,6 +53,10 @@ declare_oxc_lint!(
     /// declare const str: string;
     /// const result4 = -Number(str); // safe conversion
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unsafe-unary-minus/>
     NoUnsafeUnaryMinus(tsgolint),
     typescript,
     correctness,

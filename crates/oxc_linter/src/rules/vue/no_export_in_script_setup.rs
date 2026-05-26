@@ -41,6 +41,10 @@ declare_oxc_lint!(
     ///   let msg = 'Hello!'
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/no-export-in-script-setup.html>
     NoExportInScriptSetup,
     vue,
     correctness,

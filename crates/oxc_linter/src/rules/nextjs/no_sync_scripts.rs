@@ -53,6 +53,10 @@ declare_oxc_lint!(
     /// // Script with spread props (allowed as it might include async/defer)
     /// <script {...props}></script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-sync-scripts>
     NoSyncScripts,
     nextjs,
     correctness,

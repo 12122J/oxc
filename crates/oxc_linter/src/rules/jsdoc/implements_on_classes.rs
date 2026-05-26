@@ -53,6 +53,10 @@ declare_oxc_lint!(
     ///  */
     /// function quux () {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/implementsOnClasses.md>
     ImplementsOnClasses,
     jsdoc,
     correctness,

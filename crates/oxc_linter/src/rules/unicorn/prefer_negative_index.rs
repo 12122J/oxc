@@ -51,6 +51,10 @@ declare_oxc_lint!(
     /// foo.slice(-2, -1);
     /// foo.at(-1);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-negative-index.md>
     PreferNegativeIndex,
     unicorn,
     style,

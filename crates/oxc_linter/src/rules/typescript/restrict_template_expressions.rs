@@ -119,6 +119,10 @@ declare_oxc_lint!(
     /// declare const unknown: unknown;
     /// const result8 = typeof unknown === 'string' ? `Value: ${unknown}` : 'Invalid';
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/restrict-template-expressions/>
     RestrictTemplateExpressions(tsgolint),
     typescript,
     correctness,

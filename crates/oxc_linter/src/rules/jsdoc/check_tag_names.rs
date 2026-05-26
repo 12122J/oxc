@@ -78,6 +78,10 @@ declare_oxc_lint!(
     ///  * @customTagName
     ///  */
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/checkTagNames.md>
     CheckTagNames,
     jsdoc,
     correctness,

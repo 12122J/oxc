@@ -216,6 +216,11 @@ describe('cli', () => {
   });
 });
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/prefer-snapshot-hint.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-snapshot-hint.md>
 ";
 
 impl SnapshotHintMode {

@@ -43,6 +43,10 @@ declare_oxc_lint!(
     /// const foo = '\u001B';
     /// const foo = `\u001B${bar}`;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-hex-escape.md>
     NoHexEscape,
     unicorn,
     pedantic,

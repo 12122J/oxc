@@ -115,6 +115,10 @@ declare_oxc_lint!(
     ///
     /// By default, all types of anonymous default exports are forbidden,
     /// but any types can be selectively allowed by toggling them on in the options.
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-anonymous-default-export.md>
     NoAnonymousDefaultExport,
     import,
     style,

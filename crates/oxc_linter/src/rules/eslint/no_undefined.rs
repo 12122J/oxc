@@ -55,6 +55,10 @@ declare_oxc_lint!(
     ///
     /// bar(void 0, "lorem");
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-undefined>
     NoUndefined,
     eslint,
     restriction,

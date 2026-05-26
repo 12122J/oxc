@@ -41,6 +41,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <div role="checkbox" aria-checked="false" />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/role-has-required-aria-props.md>
     RoleHasRequiredAriaProps,
     jsx_a11y,
     correctness,

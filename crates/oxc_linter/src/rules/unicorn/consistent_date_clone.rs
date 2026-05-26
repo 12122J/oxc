@@ -38,6 +38,10 @@ declare_oxc_lint!(
     /// ```js
     /// new Date(date);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-date-clone.md>
     ConsistentDateClone,
     unicorn,
     style,

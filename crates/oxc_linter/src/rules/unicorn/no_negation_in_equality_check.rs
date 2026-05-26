@@ -48,6 +48,10 @@ declare_oxc_lint!(
     ///
     /// if (!(foo === bar)) {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-negation-in-equality-check.md>
     NoNegationInEqualityCheck,
     unicorn,
     pedantic,

@@ -47,6 +47,10 @@ declare_oxc_lint!(
     ///   }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-readonly/>
     PreferReadonly(tsgolint),
     typescript,
     style,

@@ -54,6 +54,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// ﻿var a = 123;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/unicode-bom>
     UnicodeBom,
     eslint,
     restriction,

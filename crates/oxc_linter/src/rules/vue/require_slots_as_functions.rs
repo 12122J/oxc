@@ -57,6 +57,10 @@ declare_oxc_lint!(
     /// }
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/require-slots-as-functions.html>
     RequireSlotsAsFunctions,
     vue,
     correctness,

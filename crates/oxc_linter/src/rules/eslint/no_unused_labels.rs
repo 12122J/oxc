@@ -43,6 +43,10 @@ declare_oxc_lint!(
     ///     doSomething(student);
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-unused-labels>
     NoUnusedLabels,
     eslint,
     correctness,

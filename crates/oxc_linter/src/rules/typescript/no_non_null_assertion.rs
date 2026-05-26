@@ -36,6 +36,10 @@ declare_oxc_lint!(
     /// x?.y;
     /// x.y;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-non-null-assertion/>
     NoNonNullAssertion,
     typescript,
     restriction,

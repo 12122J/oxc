@@ -54,6 +54,10 @@ declare_oxc_lint!(
     ///  Close = 2,
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/prefer-enum-initializers/>
     PreferEnumInitializers,
     typescript,
     pedantic,

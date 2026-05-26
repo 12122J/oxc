@@ -70,6 +70,10 @@ declare_oxc_lint!(
     ///   }
     /// });
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-will-update-set-state.md>
     NoWillUpdateSetState,
     react,
     correctness,

@@ -43,6 +43,10 @@ declare_oxc_lint!(
     /// const foo = i > 5 ? (i < 100 ? true : false) : true;
     /// const foo = i > 5 ? (i < 100 ? true : false) : (i < 100 ? true : false);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-nested-ternary.md>
     NoNestedTernary,
     unicorn,
     style,

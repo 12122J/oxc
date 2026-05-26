@@ -40,6 +40,10 @@ declare_oxc_lint!(
     /// }
     /// if (foo && bar) baz();
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-lonely-if.md>
     NoLonelyIf,
     unicorn,
     pedantic,

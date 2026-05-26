@@ -71,6 +71,10 @@ declare_oxc_lint!(
     ///   console.log('after');
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-thenable.md>
     NoThenable,
     unicorn,
     correctness,

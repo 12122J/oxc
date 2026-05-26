@@ -115,6 +115,10 @@ declare_oxc_lint!(
     ///     const x = 0;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/max-lines-per-function>
     MaxLinesPerFunction,
     eslint,
     pedantic,

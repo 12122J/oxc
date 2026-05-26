@@ -94,6 +94,10 @@ declare_oxc_lint!(
     /// expect(foo).toBeTruthy()
     /// expectTypeOf(foo).toBeTruthy()
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/prefer-to-be-truthy.md>
     PreferToBeTruthy,
     vitest,
     style,

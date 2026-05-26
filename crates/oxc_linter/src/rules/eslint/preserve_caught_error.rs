@@ -280,6 +280,10 @@ declare_oxc_lint!(
     ///     throw new Error("Something failed", { cause: err });
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/preserve-caught-error>
     PreserveCaughtError,
     eslint,
     suspicious,

@@ -35,6 +35,10 @@ declare_oxc_lint!(
     ///
     /// location.href = `javascript:void(0)`;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-script-url>
     NoScriptUrl,
     eslint,
     style,

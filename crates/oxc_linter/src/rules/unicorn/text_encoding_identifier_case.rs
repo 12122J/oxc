@@ -73,6 +73,10 @@ declare_oxc_lint!(
     ///   const string = buffer.toString('utf-8');
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/text-encoding-identifier-case.md>
     TextEncodingIdentifierCase,
     unicorn,
     style,

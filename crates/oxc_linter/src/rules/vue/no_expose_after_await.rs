@@ -55,6 +55,10 @@ declare_oxc_lint!(
     /// await doSomething()
     /// </script>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/no-expose-after-await.html>
     NoExposeAfterAwait,
     vue,
     correctness,

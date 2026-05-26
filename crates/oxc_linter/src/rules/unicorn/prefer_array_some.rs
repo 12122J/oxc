@@ -61,6 +61,10 @@ declare_oxc_lint!(
     /// foo.some(element => element.bar === 1);
     /// !array.some(fn);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-some.md>
     PreferArraySome,
     unicorn,
     pedantic,

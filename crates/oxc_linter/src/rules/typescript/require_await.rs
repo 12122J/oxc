@@ -71,6 +71,10 @@ declare_oxc_lint!(
     ///   return results;
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/require-await/>
     RequireAwait(tsgolint),
     typescript,
     pedantic,

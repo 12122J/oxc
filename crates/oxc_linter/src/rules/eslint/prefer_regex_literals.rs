@@ -124,6 +124,10 @@ declare_oxc_lint!(
     /// RegExp(`${prefix}abc`);
     /// new RegExp(String.raw`^\d\. ${suffix}`);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/prefer-regex-literals>
     PreferRegexLiterals,
     eslint,
     style,

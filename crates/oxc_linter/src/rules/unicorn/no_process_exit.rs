@@ -46,6 +46,10 @@ declare_oxc_lint!(
     ///   process.exit(1);
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-process-exit.md>
     NoProcessExit,
     unicorn,
     restriction,

@@ -60,6 +60,10 @@ declare_oxc_lint!(
     ///   )
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-script-component-in-head>
     NoScriptComponentInHead,
     nextjs,
     correctness,

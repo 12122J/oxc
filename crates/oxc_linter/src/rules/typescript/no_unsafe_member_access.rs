@@ -59,6 +59,10 @@ declare_oxc_lint!(
     /// // Explicit type assertion if needed
     /// (anyValue as { foo: string }).foo; // explicitly unsafe but intentional
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-unsafe-member-access/>
     NoUnsafeMemberAccess(tsgolint),
     typescript,
     pedantic,

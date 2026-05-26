@@ -44,6 +44,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// const size = new Set([1, 2, 3]).size;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-set-size.md>
     PreferSetSize,
     unicorn,
     correctness,

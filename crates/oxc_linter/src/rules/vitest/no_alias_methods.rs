@@ -49,6 +49,10 @@ declare_oxc_lint!(
     /// expect(a).toHaveNthReturnedWith()
     /// expect(a).toThrow()
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-alias-methods.md>
     NoAliasMethods,
     vitest,
     style,

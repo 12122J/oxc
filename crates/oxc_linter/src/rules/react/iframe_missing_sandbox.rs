@@ -89,6 +89,10 @@ declare_oxc_lint!(
     /// <iframe sandbox="" />;
     /// <iframe sandbox="allow-origin" />;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/iframe-missing-sandbox.md>
     IframeMissingSandbox,
     react,
     suspicious,

@@ -72,6 +72,10 @@ declare_oxc_lint!(
     ///
     /// export default MyDocument
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-head-import-in-document>
     NoHeadImportInDocument,
     nextjs,
     correctness,

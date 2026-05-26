@@ -87,6 +87,10 @@ declare_oxc_lint!(
     /// function foo({a = {}}) {}
     /// function foo({a = []}) {}
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-empty-pattern>
     NoEmptyPattern,
     eslint,
     correctness,

@@ -93,6 +93,10 @@ declare_oxc_lint!(
     /// foo <= NaN;
     /// foo > NaN;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/use-isnan>
     UseIsnan,
     eslint,
     correctness,

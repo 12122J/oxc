@@ -65,6 +65,10 @@ declare_oxc_lint!(
     ///   const qux = bar;  // `qux` is shadowed.
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-func-assign>
     NoFuncAssign,
     eslint,
     correctness,

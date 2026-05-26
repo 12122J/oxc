@@ -154,6 +154,10 @@ declare_oxc_lint!(
     ///   console.log('hello');
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/ban-ts-comment/>
     BanTsComment,
     typescript,
     pedantic,

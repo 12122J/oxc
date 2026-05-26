@@ -34,6 +34,10 @@ declare_oxc_lint!(
     /// ```javascript
     /// foo.append(bar);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-append.md>
     PreferDomNodeAppend,
     unicorn,
     pedantic,

@@ -83,6 +83,10 @@ declare_oxc_lint!(
     ///
     /// export default MyDocument
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-before-interactive-script-outside-document>
     NoBeforeInteractiveScriptOutsideDocument,
     nextjs,
     correctness,

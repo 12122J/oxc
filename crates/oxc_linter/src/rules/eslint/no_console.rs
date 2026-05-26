@@ -82,6 +82,10 @@ declare_oxc_lint!(
     /// // custom console
     /// Console.log("Hello world!");
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-console>
     NoConsole,
     eslint,
     restriction,

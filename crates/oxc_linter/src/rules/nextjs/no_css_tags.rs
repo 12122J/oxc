@@ -63,6 +63,10 @@ declare_oxc_lint!(
     ///   .button { color: blue; }
     /// `}</style>
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://nextjs.org/docs/messages/no-css-tags>
     NoCssTags,
     nextjs,
     correctness,

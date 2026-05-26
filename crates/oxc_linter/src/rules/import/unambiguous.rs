@@ -42,6 +42,10 @@ declare_oxc_lint!(
     /// (function x() { return 42 })()
     /// export {} // simple way to mark side-effects-only file as 'module' without any imports/exports
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/unambiguous.md>
     Unambiguous,
     import,
     restriction,

@@ -43,6 +43,10 @@ declare_oxc_lint!(
     /// <th scope="col" />
     /// <th scope={scope} />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/scope.md>
     Scope,
     jsx_a11y,
     correctness,

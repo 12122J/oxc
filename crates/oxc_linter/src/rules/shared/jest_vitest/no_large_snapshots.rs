@@ -111,6 +111,11 @@ line 3
 line 4
 `;
 ```
+
+### References
+
+- <https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/no-large-snapshots.md>
+- <https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/no-large-snapshots.md>
 ";
 
 #[derive(Debug, Clone, Deserialize, JsonSchema)]

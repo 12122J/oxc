@@ -67,6 +67,10 @@ declare_oxc_lint!(
     ///   }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-case-declarations>
     NoCaseDeclarations,
     eslint,
     pedantic,

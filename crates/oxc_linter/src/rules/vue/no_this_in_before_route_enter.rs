@@ -58,6 +58,10 @@ declare_oxc_lint!(
     ///   }
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.vuejs.org/rules/no-this-in-before-route-enter.html>
     NoThisInBeforeRouteEnter,
     vue,
     correctness,

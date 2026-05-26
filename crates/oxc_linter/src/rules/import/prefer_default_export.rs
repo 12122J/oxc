@@ -71,6 +71,10 @@ declare_oxc_lint!(
     /// ```js
     /// export default function bar() {};
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/prefer-default-export.md>
     PreferDefaultExport,
     import,
     style,

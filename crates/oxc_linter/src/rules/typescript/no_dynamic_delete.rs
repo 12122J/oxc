@@ -33,6 +33,10 @@ declare_oxc_lint!(
     /// const container: { [i: string]: 0 } = {};
     /// delete container.aab;
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://typescript-eslint.io/rules/no-dynamic-delete/>
     NoDynamicDelete,
     typescript,
     restriction,

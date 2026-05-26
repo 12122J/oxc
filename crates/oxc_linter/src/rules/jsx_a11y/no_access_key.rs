@@ -38,6 +38,10 @@ declare_oxc_lint!(
     /// ```jsx
     /// <div />
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-access-key.md>
     NoAccessKey,
     jsx_a11y,
     correctness,

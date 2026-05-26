@@ -139,6 +139,10 @@ declare_oxc_lint!(
     /// 	return bar.map(x => x * 2);
     /// }
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-spread.md>
     NoUselessSpread,
     unicorn,
     correctness,

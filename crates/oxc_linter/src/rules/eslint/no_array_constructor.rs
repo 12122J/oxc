@@ -46,6 +46,10 @@ declare_oxc_lint!(
     /// let arr2 = Array.from(iterable);
     /// let arr3 = new Array(9);
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/no-array-constructor>
     NoArrayConstructor,
     eslint,
     pedantic,

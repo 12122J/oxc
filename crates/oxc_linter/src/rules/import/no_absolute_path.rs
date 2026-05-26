@@ -101,6 +101,10 @@ declare_oxc_lint!(
     /// define('./foo', function(foo){})
     /// require('./foo', function(foo){})
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-absolute-path.md>
     NoAbsolutePath,
     import,
     suspicious,

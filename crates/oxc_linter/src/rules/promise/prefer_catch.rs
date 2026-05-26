@@ -49,6 +49,10 @@ declare_oxc_lint!(
     ///
     /// prom.catch(fn2)
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/prefer-catch.md>
     PreferCatch,
     promise,
     style,
