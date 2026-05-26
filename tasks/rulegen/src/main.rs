@@ -401,14 +401,18 @@ pub struct Context {
     rule_config_tuple: Option<String>,
     has_hash_map: bool,
     has_hash_set: bool,
+    /// Documentation URL for the rule in its upstream ESLint plugin. `None` for native `oxc` rules.
+    upstream_docs_url: Option<String>,
 }
 
 impl Context {
     fn new(plugin_name: RuleKind, rule_name: &str, pass_cases: String, fail_cases: String) -> Self {
         let pascal_rule_name = rule_name.to_case(Case::Pascal);
         let kebab_rule_name = rule_name.to_case(Case::Kebab);
+        let camel_rule_name = rule_name.to_case(Case::Camel);
         let underscore_rule_name = rule_name.to_case(Case::Snake);
         let mod_name = get_mod_name(plugin_name);
+        let upstream_docs_url = upstream_docs_url(plugin_name, &kebab_rule_name, &camel_rule_name);
 
         Self {
             mod_name,
@@ -424,6 +428,7 @@ impl Context {
             rule_config_tuple: None,
             has_hash_map: false,
             has_hash_set: false,
+            upstream_docs_url,
         }
     }
 
@@ -1880,6 +1885,54 @@ fn get_mod_name(rule_kind: RuleKind) -> String {
         RuleKind::Node => "node".into(),
         RuleKind::Vue => "vue".into(),
     }
+}
+
+/// Returns the upstream documentation URL for a rule in its source ESLint plugin.
+///
+/// Used to embed an attribution link in generated rule files. Returns `None` for native
+/// `oxc` rules that have no upstream.
+pub fn upstream_docs_url(
+    rule_kind: RuleKind,
+    kebab_name: &str,
+    camel_name: &str,
+) -> Option<String> {
+    Some(match rule_kind {
+        RuleKind::ESLint => format!("https://eslint.org/docs/latest/rules/{kebab_name}"),
+        RuleKind::Typescript => format!("https://typescript-eslint.io/rules/{kebab_name}/"),
+        RuleKind::Jest => format!(
+            "https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/{kebab_name}.md"
+        ),
+        RuleKind::Unicorn => format!(
+            "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/{kebab_name}.md"
+        ),
+        RuleKind::Import => format!(
+            "https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/{kebab_name}.md"
+        ),
+        RuleKind::React => format!(
+            "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/{kebab_name}.md"
+        ),
+        RuleKind::ReactPerf => format!(
+            "https://github.com/cvazac/eslint-plugin-react-perf/blob/master/docs/rules/{kebab_name}.md"
+        ),
+        RuleKind::JSXA11y => format!(
+            "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/{kebab_name}.md"
+        ),
+        RuleKind::NextJS => format!("https://nextjs.org/docs/messages/{kebab_name}"),
+        RuleKind::JSDoc => format!(
+            "https://github.com/gajus/eslint-plugin-jsdoc/blob/main/docs/rules/{camel_name}.md"
+        ),
+        RuleKind::Node => format!(
+            "https://github.com/eslint-community/eslint-plugin-n/blob/master/docs/rules/{kebab_name}.md"
+        ),
+        RuleKind::Promise => format!(
+            "https://github.com/eslint-community/eslint-plugin-promise/blob/main/docs/rules/{kebab_name}.md"
+        ),
+        RuleKind::Vitest => format!(
+            "https://github.com/vitest-dev/eslint-plugin-vitest/blob/main/docs/rules/{kebab_name}.md"
+        ),
+        RuleKind::Vue => format!("https://eslint.vuejs.org/rules/{kebab_name}.html"),
+        RuleKind::Oxc => return None,
+    })
 }
 
 /// Returns the plugin prefix used in `unsupported-rules.json` for a given `RuleKind`.

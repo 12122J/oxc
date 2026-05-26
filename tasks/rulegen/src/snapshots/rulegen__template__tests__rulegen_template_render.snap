@@ -53,6 +53,10 @@ declare_oxc_lint!(
     /// ```ts
     /// FIXME: Add at least one example of code that is allowed with the rule.
     /// ```
+    ///
+    /// ### References
+    ///
+    /// - <https://eslint.org/docs/latest/rules/my-rule>
     MyRule,
     eslint,
     nursery, // TODO: change category to `correctness`, `suspicious`, `pedantic`, `perf`, `restriction`, or `style`

@@ -29,6 +29,7 @@ serde = { workspace = true, features = ["derive"] }
 serde_json = { workspace = true }
 syn = { workspace = true, features = ["full", "parsing", "printing"] }
 proc-macro2 = { workspace = true, features = ["span-locations"] }
+walkdir = { workspace = true }
 
 [dev-dependencies]
 insta = { workspace = true }

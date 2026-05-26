@@ -52,6 +52,12 @@ declare_oxc_lint!(
     /// ```{{language}}
     /// FIXME: Add at least one example of code that is allowed with the rule.
     /// ```
+{{#if upstream_docs_url}}
+    ///
+    /// ### References
+    ///
+    /// - <{{upstream_docs_url}}>
+{{/if}}
     {{pascal_rule_name}},
     {{mod_name}},
     nursery, // TODO: change category to `correctness`, `suspicious`, `pedantic`, `perf`, `restriction`, or `style`
